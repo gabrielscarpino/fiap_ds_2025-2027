@@ -1,0 +1,32 @@
+{
+    "produto_1": {
+        "descricao_produto": "mesa",
+        "valor_produto": 599.99,
+        "tipo_embalagem": "papelão",
+        "valor_icms": 108.0
+    },
+    "produto_2": {
+        "descricao_produto": "garrafa d'água",
+        "valor_produto": 2.35,
+        "tipo_embalagem": "plástico",
+        "valor_icms": 0.42
+    },
+    "produto_3": {
+        "descricao_produto": "escada",
+        "valor_produto": 300.0,
+        "tipo_embalagem": "plástico",
+        "valor_icms": 54.0
+    },
+    "produto_4": {
+        "descricao_produto": "notebook gamer",
+        "valor_produto": 5000.0,
+        "tipo_embalagem": "papelão",
+        "valor_icms": 900.0
+    },
+    "produto_5": {
+        "descricao_produto": "perfume",
+        "valor_produto": 90.0,
+        "tipo_embalagem": "vidro",
+        "valor_icms": 16.2
+    }
+}

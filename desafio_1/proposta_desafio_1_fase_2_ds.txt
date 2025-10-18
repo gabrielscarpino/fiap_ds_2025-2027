@@ -1,0 +1,23 @@
+Proposta desafio_1_fase_2:
+
+Para esta etapa de instruções DML, analise as solicitações abaixo e, para cada uma delas, escreva a instrução SQL que atenda a solicitação corretamente:
+
+Popular dados:
+
+a)    Cadastre no mínimo 1 CLIENTE PESSOA FÍSICA e 1 CLIENTE PESSOA JÚRIDICA.  A partir dos dados cadastrados nas tabelas ESTADO, CIDADE e BAIRRO (utilize o script dados.sql disponibilizado), cadastre no mínimo 1 endereço para cada cliente. Utilize nomes significativos e relevantes.
+
+b)    Cadastre um novo cliente que já tenha um mesmo login já criado. (*Exiba a instrução SQL executada para realizar a tarefa e apresente o resultado dessa execução).  Foi possível incluir esse novo cliente?  Explique.
+
+ 
+
+Alterar Dados:
+
+c)     Selecione um específico funcionário e atualize o Cargo e aplique 12% de aumento de salário.
+
+d)    Selecione um endereço de cliente e coloque o status como I(nativo) e preencha a data de término como sendo a data limite de entrega do trabalho na plataforma da Fiap. Utilize a função to_date para registrar esse novo valor da data.
+
+e)    Tente eliminar um estado que tenha uma cidade cadastrada. Isso foi possível? Justifique o motivo.
+
+f)      Selecione um produto e tente atualizar o status do produto com o status X. Isso foi possível? Justifique o motivo.
+
+g)    Confirme todas as transações pendentes.

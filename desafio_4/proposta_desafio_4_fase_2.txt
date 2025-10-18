@@ -1,0 +1,49 @@
+proposta_desafio_4_fase_2: Implementação de práticas ESG
+
+Os executivos da Melhores Compras sabem que a implementação de práticas ESG (Governança Ambiental, Social e Corporativa) é vital para a empresa, pois promove sustentabilidade, melhora a reputação da empresa, atrai investidores conscientes e fortalece a confiança dos clientes e funcionários. Além disso, contribui para a mitigação de riscos ambientais e sociais, garantindo um crescimento econômico responsável e sustentável a longo prazo​​.
+
+Por isso, iremos criar um Programa de Sustentabilidade e Responsabilidade Social. Examine as fases do programa já planejadas para as perspectivas Social e de Governança e crie o planejamento para a perspectiva AMBIENTAL.
+
+1. Diagnóstico Inicial:
+
+Avaliação Social: analisar as condições de trabalho, políticas de inclusão e diversidade, e o impacto social das operações da empresa.
+Avaliação de Governança: revisar as práticas de transparência, ética empresarial e combate à corrupção.
+Avaliação Ambiental: <preencher aqui>
+ 
+2. Definição de Metas ESG:
+
+Implementar programas de reciclagem e redução de resíduos em todas as unidades.
+Social:
+Aumentar a diversidade e inclusão no ambiente de trabalho, estabelecendo metas de contratação para minorias;
+Investir em programas de desenvolvimento comunitário, como educação e saúde.
+Governança:
+Adotar políticas de transparência e ética empresarial mais rigorosas;
+Implementar um sistema de auditoria independente para monitorar práticas internas.
+Ambiental: <preencher aqui>
+ 
+3. Implementação de Iniciativas:
+
+Social:
+Estabelecer parcerias com ONGs locais para apoiar iniciativas comunitárias;
+Oferecer treinamentos de desenvolvimento profissional e programas de bem-estar para os funcionários.
+Governança:
+Publicar relatórios anuais de sustentabilidade seguindo as diretrizes da Global Reporting Initiative (GRI)​​;
+Aderir ao Pacto Global da ONU e seus 10 princípios universais​​.
+Ambiental: <preencher aqui>
+
+4. Monitoramento e Relatórios:
+
+Desenvolver indicadores de desempenho para cada área (ambiental, social e governança) e monitorar regularmente os progressos;
+Divulgar os resultados em relatórios públicos anuais, destacando os avanços e as áreas que necessitam de melhorias​​.
+
+5. Engajamento e Comunicação:
+
+Engajar os stakeholders (funcionários, clientes, fornecedores e comunidade) por meio de workshops e seminários sobre ESG;
+Utilizar as redes sociais e o site da empresa para comunicar as iniciativas e os resultados alcançados, promovendo transparência e responsabilidade​​.
+ 
+
+Benefícios Esperados:
+
+Social: melhoria nas condições de trabalho e maior impacto positivo nas comunidades locais;
+Governança: aumento da transparência e da confiança dos stakeholders, além de uma imagem corporativa fortalecida;
+Ambiental: <preencher aqui>

@@ -1,0 +1,7 @@
+proposta_desafio_2_fase_2: Comandos DQL/DRS
+
+a)    Crie uma consulta SQL por meio do comando SELECT que exiba informações das categorias de produto e respectivos produtos de cada categoria.  Exiba as seguintes informações: código e nome da categoria, código e descrição do produto, valor unitário, tipo de embalagem e percentual do lucro de cada produto. Caso exista alguma categoria sem produto, você deve exibir a categoria e deixar os dados do produto em branco. Classifique a consulta por ordem de nome de categoria e nome de produto, ambos de forma ascendente.
+
+b)    Crie uma instrução SQL que exiba os dados dos clientes pessoas físicas. Exiba as seguintes informações: código e nome do cliente, e-mail, telefone, login, data de nascimento no formato dia-mes-ano (com 4 digitos), dia da semana da data de nascimento, anos de vida, sexo biológico e CPF.
+
+c)     Exiba as seguintes informações da tabela de visualização dos vídeos dos produtos: código do produto, nome do produto, data e hora de visualização do produto. Exiba essas informações classificadas pela data e hora mais recente.

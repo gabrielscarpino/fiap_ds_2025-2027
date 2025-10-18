@@ -1,0 +1,15 @@
+SGV_MelhoresCompras_ModeloFisico.pdf
+
+Modelo de dados relacional físico feito na ferramenta CASE Oracle Data Modeler e contém as Tabelas, Colunas e Relacionamentos físicos criados para atender ao projeto SGV.
+
+Cria.sql
+
+Script contendo a criação das tabelas, colunas e relacionamentos do projeto SGV e também as tabelas corporativas MC (Melhores Compras).
+
+Apaga.sql
+
+Script contendo o drop das tabelas (eliminação) física das tabelas corporativas MC (Melhores Compras) e do projeto SGV.
+
+dados.sql
+
+Script contendo alguns comandos para popular as tabelas criadas.
