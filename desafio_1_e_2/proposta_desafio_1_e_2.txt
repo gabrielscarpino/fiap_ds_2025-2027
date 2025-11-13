@@ -1,0 +1,41 @@
+DESAFIO 1:
+
+a)Crie um cursor nomeado que exiba as seguintes informações:
+
+Número da ocorrência do SAC (coluna nr_sac na tabela mc_sgv_sac);
+Data de abertura do SAC (coluna dt_abertura_sac na tabela mc_sgv_sac);
+Hora de abertura do SAC (coluna hr_abertura_sac na tabela mc_sgv_sac);
+Tipo do SAC (esse conteúdo irá ser transformado posteriormente. Coluna tp_sac na tabela mc_sgv_sac);
+Código do produto (coluna cd_produto na tabela mc_produto);
+Nome do produto (coluna ds_produto na tabela mc_produto);
+Valor unitário do produto (coluna vl_unitario na tabela mc_produto);
+Percentual do lucro unitário do produto (coluna vl_perc_lucro na tabela mc_produto);
+Número do Cliente (coluna nr_cliente na tabela mc_cliente);
+Nome do Cliente (coluna nm_cliente na tabela mc_cliente);
+Sigla do Estado do Cliente (coluna sg_estado na tabela mc_estado);
+Nome do Estado do Cliente (coluna nm_estado na tabela mc_estado).
+
+
+Para criar a consulta de forma correta, será necessário utilizar a junção entre as tabelas mc_sgv_sac, mc_produto e mc_cliente e também fazer a junção com as tabelas que envolvem o endereço do cliente. Veja a dica a seguir:
+
+#dica: lembre-se de que, para recuperar o nome do estado do cliente, é necessário também utilizar junções com as tabelas MC_END_CLI, MC_LOGRADOURO, MC_BAIRRO, MC_CIDADE e MC_ESTADO. 
+
+b)Coloque esse cursor em um loop e, para cada linha disponibilizada, inclua as seguintes regras:
+
+A coluna DS_TIPO_CLASSIFICACAO_SAC deve ser preenchida transformando o status da coluna TP_SAC que se encontra no cursor principal. Siga as seguintes regras: caso o conteúdo seja S, o texto correto deve ser SUGESTÃO. Caso seja D, o texto correto deve ser DÚVIDA. Caso seja E, o texto correto deve ser ELOGIO. Caso não seja nenhuma dessas classificações, retorne o texto CLASSIFICAÇÃO INVÁLIDA;
+
+A coluna VL_UNITARIO_LUCRO_PRODUTO irá armazenar o valor do lucro unitário sobre o produto ofertado. Seu conteúdo deve ser calculado aplicando a seguinte fórmula: conteúdo da coluna (VL_PERC_LUCRO / 100 ) * VL_UNITARIO_PRODUTO. Esses valores se encontram no seu cursor principal;
+
+A coluna VL_ICMS_PRODUTO, nesse momento, irá se manter vazia;
+
+Após obter os valores associados a cada coluna da tabela MC_SGV_OCORRENCIA_SAC, inclua a linha na tabela utilizando o comando INSERT;
+
+Após processar todas as linhas do cursor, encerre as transações pendentes com o comando COMMIT.
+
+c)Realize os testes de seu bloco anônimo. Não se esqueça de analisar os dados e fazer os ajustes necessários para que atenda às regras de negócio da empresa Melhores Compras.
+
+DESAFIO 2:
+
+a) Crie uma instrução DQL que recupere as informações da categoria de produto (MC_CATEGORIA_PROD) e que calcule o total de chamados a partir da tabela MC_SGV_SAC. Caso exista alguma categoria de produto que não possua chamados associados, é necessário que o valor zero (0) seja exibido no total;
+
+b)Exiba o resultado da sua consulta.

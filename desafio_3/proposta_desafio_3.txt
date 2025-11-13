@@ -1,0 +1,9 @@
+Sua entrega deve responder a essas perguntas:
+
+a)    Qual é o papel da TI em relação à LGPD dentro da plataforma de e-commerce e no dia a dia de uso operacional dentro da organização?
+
+b)    Crie no mínimo 2 recomendações de proteção aos dados possíveis de serem implementadas, explicando como deve ser implantada dentro da Melhores Compras e destacando o benefício de cada recomendação.
+
+c)    Na situação dos dados dos clientes estarem bem completos e a aplicação da LGPD, defina 2 dados anonimizados para os clientes.
+
+Utilize o template disponibilizado: Template - Ampliando a consistência do negócio.docx e desenvolva a solicitação do item 1.5. É recomendável utilizar-se de imagens e referências bibliográficas.
