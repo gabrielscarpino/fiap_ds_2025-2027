@@ -1,0 +1,9 @@
+Nota: 3,7/4
+
+Desafio: Comandos DML
+Comandos: Certo. Os comandos DML estão todos corretos e bem organizados no arquivo SQL, que também inclui o script de dados inicial, tornando-o autossuficiente. Todas as operações solicitadas (a-g) foram implementadas corretamente.
+Evidências: Parcialmente Certo. Foram entregues apenas os prints de tela que comprovam a execução dos itens que geram erro (b, e, f). As evidências para as operações bem-sucedidas (a, c, d, g) estão ausentes.
+
+Desafio: Comandos DQL
+Comandos: Certo. As três consultas SQL estão perfeitamente escritas, com uso correto de LEFT OUTER JOIN e INNER JOIN, e aplicação precisa de funções de formatação e cálculo de datas para atender a todos os requisitos do enunciado. O grupo também demonstrou iniciativa ao popular a tabela de visualizações para a consulta do item (c).
+Evidências: Errado. O arquivo com as evidências de execução (prints de tela) das consultas DQL não foi entregue.
