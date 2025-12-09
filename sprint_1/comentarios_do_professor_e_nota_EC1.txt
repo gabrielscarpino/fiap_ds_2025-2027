@@ -1,0 +1,18 @@
+Nota 4.13/5
+
+Feedback original:
+
+O grupo GRW apresenta uma estrutura de apresentação organizada e identifica corretamente um produto chave da parceira 
+(Score Blend PJ) como objeto de melhoria. A proposta de valor — aumentar a assertividade da análise de crédito — é válida 
+e alinhada ao desafio. No entanto, o projeto se mantém em uma camada conceitual bastante generalista nesta fase de ideação.
+ A definição do problema utiliza uma narrativa lúdica (storytelling), que, embora criativa, acaba ocupando o espaço de uma 
+definição técnica mais robusta sobre as lacunas atuais dos modelos de crédito. A solução proposta sugere o uso de "dados externos" 
+e "análises passadas", mas não especifica quais seriam essas fontes (ex: dados macroeconômicos, judiciais, redes sociais?) ou como
+ elas seriam integradas (ex: qual modelo de Machine Learning?). O comparativo com a concorrência (Serasa) é um ponto positivo por 
+trazer contexto de mercado, mas compara os produtos atuais, sem detalhar como a nova solução do grupo superaria especificamente essas alternativas.
+ É um bom ponto de partida, que necessitará de muito mais profundidade técnica e especificação de dados nas próximas etapas para se tornar viável.
+
+Feedback adicional após contestação da nota:
+
+Considerando o esforço proativo do grupo em buscar o aprofundamento técnico (evidenciado pela réplica) e a necessidade de incentivar a continuidade 
+do projeto na próxima fase, o valor da ideia e a dedicação demonstrada merecem um reconhecimento maior.
