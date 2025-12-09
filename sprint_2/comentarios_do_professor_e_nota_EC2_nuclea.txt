@@ -1,0 +1,25 @@
+Nota: 4.25/5
+
+O trabalho AURA é sólido e bem conceituado, cumprindo todos os requisitos obrigatórios com um bom nível de detalhamento.
+A arquitetura na AWS é funcional e utiliza ferramentas apropriadas (S3, RDS, SageMaker) para gerenciar o ciclo de vida do Machine Learning. 
+O grande destaque da solução é a inclusão dos Fatores Condutores do Risco no protótipo, o que fornece insights de interpretação ao usuário, elevando
+a entrega acima de uma execução puramente básica.
+
+Avaliação dos Entregáveis (Sprint 2)
+
+Problema a ser revolvido, Público-alvo e Proposta de solução entregue na primeira fase atualizada: Correto.
+O problema (risco de crédito e incerteza) e a solução (AURA, plataforma de Score Preditivo) estão claros e bem estabelecidos.
+
+Arquitetura e desenho inicial da solução: Correto.
+A arquitetura é completa, utilizando serviços MLOps da AWS (S3, RDS) com a inclusão de Amazon SageMaker para o ciclo de modelagem, confirmando 
+a viabilidade técnica.
+
+Descrição da Arquitetura da Solução (Tecnologias necessárias em sua solução): Correto.
+As tecnologias são adequadas e seus papéis (S3 como Data Lake, SageMaker para ML) estão detalhados, confirmando a funcionalidade da solução.
+
+Protótipos da solução definida pelo grupo adicionada a uma breve descrição do significado de cada protótipo: Correto.
+Os protótipos são fortes, incluindo o Dashboard Analítico e a Tela de Consulta Preditiva que retorna o Score junto com os Fatores
+ Condutores do Risco (Explainability).
+
+Gerenciamento do projeto utilizando framework ágil: Correto.
+O planejamento é estruturado, utilizando o framework Scrum com um Cronograma de Sprints claro e atribuição de tarefas para as próximas fases.
