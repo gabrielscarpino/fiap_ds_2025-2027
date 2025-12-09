@@ -1,0 +1,22 @@
+Nota 3.4/4
+
+Feedback original:
+
+Código-fonte PL/SQL (a): O código está incorreto. O aluno abriu o cursor duas vezes e executou o LOOP duas vezes, uma apenas para dbms_output e outra para o INSERT, o que é ineficiente e propenso a erros. Mais importante, o INSERT não lista as colunas de destino, o que é uma má prática perigosa, e falha em usar o nr_sac original (o SELECT nem o inclui na lista).
+
+Evidência PL/SQL (b): A evidência da execução do bloco anônimo e da consulta na tabela MC_SGV_OCORRENCIA_SAC foi entregue corretamente.
+
+Código-fonte DQL (c): O código está parcialmente correto. A lógica do LEFT JOIN e do COUNT(SAC.NR_SAC) está correta para exibir o "0". No entanto, o SELECT e o GROUP BY falham em incluir a CP.DS_CATEGORIA (Descrição da Categoria), que era um requisito explícito do desafio ("informações da categoria") e do exemplo da Figura 6.
+
+Evidência DQL (d): A evidência da execução da consulta DQL foi entregue corretamente, mostrando o resultado da consulta (sem a descrição).
+
+Relatório LGPD (e): O relatório está excelente. As respostas foram bem fundamentadas, citando os princípios da LGPD . As recomendações (Anonimização e Autenticação Multifator) são práticas e bem explicadas . As escolhas de anonimização (CPF e CEP) são muito bem justificadas e demonstram domínio do conceito .
+
+Feedback pós contestação da nota:
+
+Reanalisamos sua entrega e a contestação apresentada com base nas evidências enviadas.
+
+ 1. Sobre o Desafio 2 (DQL): Vocês estão corretos. Identificamos na evidência que o campo CP.DS_CATEGORIA foi devidamente incluído no SELECT e no GROUP BY. O feedback anterior foi equivocado neste ponto. A nota deste item foi integralmente restaurada . 
+
+2. Sobre o Desafio 1 (PL/SQL): Entendemos o argumento de que a lógica funciona, apesar da ineficiência. Contudo, há um ponto de atenção técnica importante: Embora "boas práticas" não estivessem explícitas como critério de exclusão, a instrução 1.3.a solicitava explicitamente a exibição e uso do Número da ocorrência do SAC. 
+A não inclusão deste ID original no cursor compromete a integridade dos dados migrados (Data Lineage), o que configura um erro funcional, e não apenas estético. Dito isso, concordamos que a penalidade aplicada foi excessiva para um código que, funcionalmente, executa a operação de carga. Por isso, decidimos elevar a nota do item A , reconhecendo o funcionamento da lógica, mas mantendo uma dedução parcial pelo não cumprimento do requisito do ID original e pela fragilidade estrutural do script em um contexto de consistência de negócio.
