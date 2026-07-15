@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<DadosCli>	
+	<NomeCli>Carlos Alberto Sotwz</NomeCli>
+	<DtNascimento>2001-02-17</DtNascimento>
+	<CPF>09807654322</CPF>
+	<NrEstrelas>5</NrEstrelas>
+	<VlTicketMedioCompra>2356</VlTicketMedioCompra>  
+</DadosCli>
+<DadosCli>	
+	<NomeCli>Adriana Lopes</NomeCli>
+	<DtNascimento>2003-08-12</DtNascimento>
+	<CPF>13001098766</CPF>
+	<NrEstrelas>5</NrEstrelas>
+	<VlTicketMedioCompra>65432</VlTicketMedioCompra>  
+</DadosCli>
+<DadosCli>	
+	<NomeCli>Yuri Julio</NomeCli>
+	<DtNascimento>2000-09-21</DtNascimento>
+	<CPF>08675432211</CPF>
+	<NrEstrelas>5</NrEstrelas>
+	<VlTicketMedioCompra>4526</VlTicketMedioCompra>  
+</DadosCli>
+<DadosCli>	
+	<NomeCli>Chin Xan Xung</NomeCli>
+	<DtNascimento>1990-01-31</DtNascimento>
+	<CPF>87906543211</CPF>
+	<NrEstrelas>3</NrEstrelas>
+	<VlTicketMedioCompra>1098</VlTicketMedioCompra>  
+</DadosCli>
+<DadosCli>	
+	<NomeCli>Mariana Cristina Werber</NomeCli>
+	<DtNascimento>2002-12-12</DtNascimento>
+	<CPF>1456789822</CPF>
+	<NrEstrelas>2</NrEstrelas>
+	<VlTicketMedioCompra>789</VlTicketMedioCompra>  
+</DadosCli>
