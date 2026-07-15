@@ -1,0 +1,1001 @@
+id,bairro,classificacao,latitude,longitude,populacao,risco
+1,Avenida Aricanduva,Inundação,-23.5578,-46.5053,273.873,28
+2,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5875,-46.5894,554.926,30
+3,Mairiporã,Deslizamento,-23.2107,-46.3438,107.592,82
+4,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5871,-46.5874,470.636,32
+5,Litoral Paulista,Deslizamento,-23.5011,-48.0571,206.918,48
+6,Avenida Aricanduva,Inundação,-23.5574,-46.5133,233.33,27
+7,Mairiporã,Deslizamento,-23.2049,-46.3436,96.859,81
+8,Mairiporã,Deslizamento,-23.2001,-46.3521,83.549,77
+9,Avenida Aricanduva,Inundação,-23.564,-46.5108,227.374,23
+10,Avenida Aricanduva,Inundação,-23.5691,-46.5061,274.778,28
+11,Mairiporã,Deslizamento,-23.1965,-46.3552,102.605,78
+12,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5809,-46.5898,551.343,30
+13,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5837,-46.5755,534.091,33
+14,Avenida Aricanduva,Inundação,-23.5723,-46.5118,257.116,23
+15,Litoral Paulista,Deslizamento,-23.4986,-48.0464,206.628,51
+16,Franco da Rocha,Deslizamento,-23.3253,-46.7324,128.41,47
+17,Franco da Rocha,Deslizamento,-23.3268,-46.7349,164.46,47
+18,Mairiporã,Deslizamento,-23.1984,-46.3496,110.347,78
+19,Franco da Rocha,Deslizamento,-23.3154,-46.7214,147.963,47
+20,Litoral Paulista,Deslizamento,-23.4963,-48.0516,223.456,47
+21,Mairiporã,Deslizamento,-23.2091,-46.3479,105.489,78
+22,Mairiporã,Deslizamento,-23.2026,-46.3525,83.906,81
+23,Mairiporã,Deslizamento,-23.2105,-46.3491,92.386,80
+24,Litoral Paulista,Deslizamento,-23.504,-48.0552,215.548,50
+25,Litoral Paulista,Deslizamento,-23.5068,-48.0572,179.853,48
+26,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5771,-46.5802,555.719,30
+27,Avenida Aricanduva,Inundação,-23.57,-46.5027,269.14,23
+28,Avenida Aricanduva,Inundação,-23.5673,-46.5025,247.816,24
+29,Franco da Rocha,Deslizamento,-23.3169,-46.7212,128.018,49
+30,Franco da Rocha,Deslizamento,-23.3222,-46.7239,139.848,53
+31,Mairiporã,Deslizamento,-23.2058,-46.351,103.794,77
+32,Franco da Rocha,Deslizamento,-23.3259,-46.731,159.089,49
+33,Franco da Rocha,Deslizamento,-23.3276,-46.719,139.729,48
+34,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5834,-46.5898,476.761,27
+35,Mairiporã,Deslizamento,-23.2001,-46.3508,96.302,82
+36,Avenida Aricanduva,Inundação,-23.5717,-46.5111,245.424,27
+37,Litoral Paulista,Deslizamento,-23.4979,-48.0517,202.349,47
+38,Franco da Rocha,Deslizamento,-23.3249,-46.732,129.543,50
+39,Avenida Aricanduva,Inundação,-23.5622,-46.5167,266.965,24
+40,Avenida Aricanduva,Inundação,-23.5627,-46.5142,281.237,28
+41,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5766,-46.5795,535.282,28
+42,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5859,-46.5797,547.583,27
+43,Avenida Aricanduva,Inundação,-23.5645,-46.5131,233.53,25
+44,Litoral Paulista,Deslizamento,-23.4936,-48.0517,190.532,49
+45,Mairiporã,Deslizamento,-23.1994,-46.3449,109.196,77
+46,Avenida Aricanduva,Inundação,-23.5717,-46.5144,297.805,25
+47,Mairiporã,Deslizamento,-23.205,-46.3443,111.737,78
+48,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5822,-46.5831,574.169,30
+49,Franco da Rocha,Deslizamento,-23.3297,-46.7271,135.765,53
+50,Mairiporã,Deslizamento,-23.2005,-46.3502,85.909,79
+51,Litoral Paulista,Deslizamento,-23.5002,-48.0473,196.26,51
+52,Franco da Rocha,Deslizamento,-23.3208,-46.7271,136.505,51
+53,Mairiporã,Deslizamento,-23.2018,-46.347,84.44,80
+54,Avenida Aricanduva,Inundação,-23.5655,-46.5125,296.603,25
+55,Franco da Rocha,Deslizamento,-23.3148,-46.7297,152.619,53
+56,Mairiporã,Deslizamento,-23.1953,-46.3581,92.132,83
+57,Franco da Rocha,Deslizamento,-23.3249,-46.7323,152.801,53
+58,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5751,-46.5892,456.338,33
+59,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5859,-46.5856,473.383,27
+60,Franco da Rocha,Deslizamento,-23.3188,-46.7292,140.938,53
+61,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.577,-46.5764,561.986,28
+62,Franco da Rocha,Deslizamento,-23.32,-46.7319,130.902,52
+63,Avenida Aricanduva,Inundação,-23.5588,-46.5166,272.293,28
+64,Mairiporã,Deslizamento,-23.2036,-46.3506,91.57,78
+65,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5895,-46.5897,548.39,32
+66,Mairiporã,Deslizamento,-23.209,-46.3509,105.759,80
+67,Avenida Aricanduva,Inundação,-23.563,-46.5156,230.224,25
+68,Mairiporã,Deslizamento,-23.2008,-46.3477,111.801,80
+69,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5848,-46.5776,465.625,30
+70,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5887,-46.5899,569.397,33
+71,Franco da Rocha,Deslizamento,-23.319,-46.7341,168.956,53
+72,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5862,-46.5888,452.43,31
+73,Litoral Paulista,Deslizamento,-23.4978,-48.0535,209.636,51
+74,Litoral Paulista,Deslizamento,-23.5013,-48.0578,191.55,51
+75,Franco da Rocha,Deslizamento,-23.3245,-46.7335,131.949,52
+76,Avenida Aricanduva,Inundação,-23.5702,-46.5167,287.016,26
+77,Avenida Aricanduva,Inundação,-23.5702,-46.5101,257.901,23
+78,Litoral Paulista,Deslizamento,-23.4938,-48.0576,171.089,49
+79,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.582,-46.5817,527.595,33
+80,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5896,-46.5809,566.035,30
+81,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5808,-46.5882,546.681,29
+82,Litoral Paulista,Deslizamento,-23.498,-48.0487,209.298,49
+83,Avenida Aricanduva,Inundação,-23.5686,-46.5136,256.205,26
+84,Mairiporã,Deslizamento,-23.2011,-46.3539,102.406,81
+85,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5791,-46.5849,464.104,33
+86,Avenida Aricanduva,Inundação,-23.5619,-46.5114,300.845,25
+87,Franco da Rocha,Deslizamento,-23.3171,-46.7305,135.702,47
+88,Mairiporã,Deslizamento,-23.1952,-46.3527,94.079,83
+89,Litoral Paulista,Deslizamento,-23.5042,-48.0509,214.609,49
+90,Franco da Rocha,Deslizamento,-23.324,-46.7265,150.086,47
+91,Litoral Paulista,Deslizamento,-23.4937,-48.0556,170.821,47
+92,Mairiporã,Deslizamento,-23.2095,-46.3542,111.045,80
+93,Mairiporã,Deslizamento,-23.2031,-46.358,85.851,80
+94,Franco da Rocha,Deslizamento,-23.3211,-46.7316,170.352,47
+95,Litoral Paulista,Deslizamento,-23.4931,-48.0462,229.986,48
+96,Litoral Paulista,Deslizamento,-23.4962,-48.0531,212.562,53
+97,Avenida Aricanduva,Inundação,-23.562,-46.5036,295.276,27
+98,Litoral Paulista,Deslizamento,-23.5044,-48.0555,223.737,48
+99,Litoral Paulista,Deslizamento,-23.4998,-48.0581,205.083,51
+100,Franco da Rocha,Deslizamento,-23.3159,-46.7312,168.617,51
+101,Avenida Aricanduva,Inundação,-23.5674,-46.5057,264.537,25
+102,Mairiporã,Deslizamento,-23.207,-46.354,95.911,81
+103,Litoral Paulista,Deslizamento,-23.5015,-48.0527,214.673,51
+104,Franco da Rocha,Deslizamento,-23.3181,-46.7241,138.41,47
+105,Avenida Aricanduva,Inundação,-23.5684,-46.5031,243.943,27
+106,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5898,-46.5748,431.474,31
+107,Litoral Paulista,Deslizamento,-23.4921,-48.0606,203.434,50
+108,Franco da Rocha,Deslizamento,-23.3216,-46.7249,159.064,53
+109,Franco da Rocha,Deslizamento,-23.32,-46.7257,168.322,47
+110,Mairiporã,Deslizamento,-23.2065,-46.3441,109.289,80
+111,Avenida Aricanduva,Inundação,-23.5676,-46.5143,277.718,23
+112,Avenida Aricanduva,Inundação,-23.5637,-46.5158,303.857,24
+113,Franco da Rocha,Deslizamento,-23.3255,-46.7284,154.874,51
+114,Litoral Paulista,Deslizamento,-23.4934,-48.0486,227.215,51
+115,Franco da Rocha,Deslizamento,-23.3233,-46.7201,166.74,51
+116,Litoral Paulista,Deslizamento,-23.5076,-48.0558,218.852,53
+117,Franco da Rocha,Deslizamento,-23.324,-46.723,145.418,49
+118,Mairiporã,Deslizamento,-23.2019,-46.3583,84.24,83
+119,Franco da Rocha,Deslizamento,-23.3298,-46.7338,158.882,51
+120,Litoral Paulista,Deslizamento,-23.4921,-48.0529,216.355,51
+121,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5764,-46.5863,492.582,32
+122,Franco da Rocha,Deslizamento,-23.3147,-46.7253,138.01,47
+123,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5843,-46.5885,525.736,28
+124,Mairiporã,Deslizamento,-23.2027,-46.3457,99.358,81
+125,Mairiporã,Deslizamento,-23.2045,-46.3572,84.005,83
+126,Litoral Paulista,Deslizamento,-23.4981,-48.0505,182.961,52
+127,Avenida Aricanduva,Inundação,-23.5573,-46.5073,276.904,28
+128,Mairiporã,Deslizamento,-23.2095,-46.3477,99.228,77
+129,Avenida Aricanduva,Inundação,-23.5682,-46.5086,281.772,26
+130,Avenida Aricanduva,Inundação,-23.5657,-46.5035,287.46,25
+131,Litoral Paulista,Deslizamento,-23.4923,-48.0539,189.915,49
+132,Mairiporã,Deslizamento,-23.2072,-46.3581,86.942,83
+133,Mairiporã,Deslizamento,-23.2088,-46.349,88.498,77
+134,Mairiporã,Deslizamento,-23.197,-46.3511,111.721,81
+135,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5864,-46.5772,476.762,28
+136,Litoral Paulista,Deslizamento,-23.5075,-48.053,202.267,50
+137,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5757,-46.5882,474.515,29
+138,Franco da Rocha,Deslizamento,-23.3285,-46.7273,158.705,52
+139,Mairiporã,Deslizamento,-23.1963,-46.3583,91.286,77
+140,Franco da Rocha,Deslizamento,-23.3204,-46.7192,151.89,52
+141,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5778,-46.5818,533.077,28
+142,Mairiporã,Deslizamento,-23.207,-46.3479,109.435,82
+143,Mairiporã,Deslizamento,-23.2025,-46.3576,96.292,79
+144,Mairiporã,Deslizamento,-23.2071,-46.355,94.233,78
+145,Franco da Rocha,Deslizamento,-23.3165,-46.7336,151.834,47
+146,Franco da Rocha,Deslizamento,-23.3245,-46.7274,143.71,47
+147,Litoral Paulista,Deslizamento,-23.5003,-48.0525,214.424,53
+148,Franco da Rocha,Deslizamento,-23.321,-46.7289,142.914,50
+149,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5803,-46.5864,499.737,32
+150,Litoral Paulista,Deslizamento,-23.4931,-48.0617,183.703,52
+151,Avenida Aricanduva,Inundação,-23.5594,-46.5156,290.408,28
+152,Franco da Rocha,Deslizamento,-23.3287,-46.7266,146.202,50
+153,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5808,-46.5756,425.795,32
+154,Franco da Rocha,Deslizamento,-23.3221,-46.7234,164.703,48
+155,Mairiporã,Deslizamento,-23.2019,-46.3548,105.745,82
+156,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5848,-46.5835,501.142,27
+157,Avenida Aricanduva,Inundação,-23.5712,-46.5072,249.133,26
+158,Mairiporã,Deslizamento,-23.1961,-46.3542,100.591,82
+159,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5827,-46.5815,507.338,28
+160,Litoral Paulista,Deslizamento,-23.497,-48.0604,178.508,47
+161,Franco da Rocha,Deslizamento,-23.3281,-46.7274,155.023,49
+162,Franco da Rocha,Deslizamento,-23.3164,-46.7231,146.118,51
+163,Mairiporã,Deslizamento,-23.196,-46.3564,85.111,82
+164,Avenida Aricanduva,Inundação,-23.5595,-46.5148,289.562,27
+165,Avenida Aricanduva,Inundação,-23.5704,-46.5144,291.103,24
+166,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5755,-46.5852,513.246,28
+167,Mairiporã,Deslizamento,-23.201,-46.3507,96.037,77
+168,Franco da Rocha,Deslizamento,-23.3243,-46.7287,151.677,51
+169,Mairiporã,Deslizamento,-23.2023,-46.3524,92.928,79
+170,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5878,-46.5776,518.011,30
+171,Mairiporã,Deslizamento,-23.1984,-46.3569,92.309,81
+172,Mairiporã,Deslizamento,-23.1991,-46.3588,99.886,78
+173,Litoral Paulista,Deslizamento,-23.494,-48.0563,219.495,53
+174,Avenida Aricanduva,Inundação,-23.5657,-46.5073,266.183,26
+175,Litoral Paulista,Deslizamento,-23.5043,-48.0502,213.415,53
+176,Mairiporã,Deslizamento,-23.1999,-46.3506,90.55,81
+177,Avenida Aricanduva,Inundação,-23.5701,-46.5025,272.655,28
+178,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5748,-46.5878,512.934,32
+179,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5802,-46.59,555.819,30
+180,Avenida Aricanduva,Inundação,-23.564,-46.5059,299.715,28
+181,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5777,-46.5843,435.338,29
+182,Litoral Paulista,Deslizamento,-23.5063,-48.0484,224.866,47
+183,Litoral Paulista,Deslizamento,-23.4922,-48.0484,177.657,47
+184,Franco da Rocha,Deslizamento,-23.3161,-46.7267,154.355,51
+185,Franco da Rocha,Deslizamento,-23.3181,-46.7317,163.212,48
+186,Franco da Rocha,Deslizamento,-23.3282,-46.7284,166.626,52
+187,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5825,-46.5826,562.768,29
+188,Mairiporã,Deslizamento,-23.2038,-46.357,88.337,83
+189,Avenida Aricanduva,Inundação,-23.5663,-46.5024,255.019,28
+190,Mairiporã,Deslizamento,-23.2009,-46.3591,102.635,83
+191,Franco da Rocha,Deslizamento,-23.3146,-46.7326,146.393,50
+192,Litoral Paulista,Deslizamento,-23.505,-48.057,188.785,52
+193,Mairiporã,Deslizamento,-23.2076,-46.3449,89.181,81
+194,Franco da Rocha,Deslizamento,-23.3294,-46.7274,153.164,48
+195,Franco da Rocha,Deslizamento,-23.3176,-46.7277,151.34,50
+196,Franco da Rocha,Deslizamento,-23.3236,-46.726,134.702,47
+197,Litoral Paulista,Deslizamento,-23.5068,-48.0497,186.524,49
+198,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5835,-46.5899,448.423,28
+199,Litoral Paulista,Deslizamento,-23.5015,-48.053,185.419,53
+200,Mairiporã,Deslizamento,-23.2029,-46.3498,93.118,81
+201,Mairiporã,Deslizamento,-23.1968,-46.3504,104.316,79
+202,Mairiporã,Deslizamento,-23.1956,-46.3442,87.301,82
+203,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5898,-46.5889,456.183,29
+204,Litoral Paulista,Deslizamento,-23.494,-48.0515,212.449,47
+205,Litoral Paulista,Deslizamento,-23.5025,-48.0576,192.974,53
+206,Avenida Aricanduva,Inundação,-23.5597,-46.5115,287.852,22
+207,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5762,-46.5868,571.182,30
+208,Franco da Rocha,Deslizamento,-23.3161,-46.7272,168.024,47
+209,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5896,-46.586,506.245,31
+210,Franco da Rocha,Deslizamento,-23.3259,-46.7328,165.337,50
+211,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5816,-46.5876,465.846,29
+212,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5815,-46.5773,499.714,28
+213,Franco da Rocha,Deslizamento,-23.3235,-46.727,160.166,51
+214,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5878,-46.5861,464.975,29
+215,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5804,-46.5797,451.306,31
+216,Franco da Rocha,Deslizamento,-23.3233,-46.7289,151.094,48
+217,Avenida Aricanduva,Inundação,-23.5577,-46.5141,233.309,24
+218,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5889,-46.5769,490.579,30
+219,Franco da Rocha,Deslizamento,-23.3185,-46.7252,170.492,53
+220,Litoral Paulista,Deslizamento,-23.5003,-48.0575,202.593,49
+221,Mairiporã,Deslizamento,-23.1975,-46.3458,111.196,79
+222,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.58,-46.5827,476.658,27
+223,Franco da Rocha,Deslizamento,-23.3221,-46.724,147.304,53
+224,Mairiporã,Deslizamento,-23.1979,-46.3465,103.549,82
+225,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5884,-46.5853,546.115,27
+226,Litoral Paulista,Deslizamento,-23.4954,-48.0508,201.479,50
+227,Mairiporã,Deslizamento,-23.1993,-46.3464,102.495,82
+228,Franco da Rocha,Deslizamento,-23.3155,-46.7247,158.948,47
+229,Litoral Paulista,Deslizamento,-23.4973,-48.0611,205.501,47
+230,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5809,-46.5757,430.092,31
+231,Franco da Rocha,Deslizamento,-23.3269,-46.7332,146.715,51
+232,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5781,-46.5894,493.272,29
+233,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5797,-46.5799,479.705,30
+234,Avenida Aricanduva,Inundação,-23.5653,-46.5028,268.415,23
+235,Avenida Aricanduva,Inundação,-23.5638,-46.5041,269.064,27
+236,Franco da Rocha,Deslizamento,-23.3182,-46.7267,146.942,50
+237,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5896,-46.5764,428.19,33
+238,Litoral Paulista,Deslizamento,-23.4995,-48.0468,218.145,53
+239,Avenida Aricanduva,Inundação,-23.5722,-46.5156,229.1,25
+240,Franco da Rocha,Deslizamento,-23.3207,-46.7307,145.657,52
+241,Franco da Rocha,Deslizamento,-23.3246,-46.7266,160.71,47
+242,Mairiporã,Deslizamento,-23.2035,-46.3545,108.19,78
+243,Litoral Paulista,Deslizamento,-23.5073,-48.0615,229.493,47
+244,Franco da Rocha,Deslizamento,-23.3237,-46.733,170.813,51
+245,Litoral Paulista,Deslizamento,-23.5039,-48.0524,229.169,53
+246,Mairiporã,Deslizamento,-23.1965,-46.3435,104.978,80
+247,Mairiporã,Deslizamento,-23.2046,-46.3459,89.927,79
+248,Litoral Paulista,Deslizamento,-23.5061,-48.061,193.238,47
+249,Franco da Rocha,Deslizamento,-23.3147,-46.7218,163.797,52
+250,Franco da Rocha,Deslizamento,-23.3217,-46.7254,151.369,49
+251,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5818,-46.5824,574.45,29
+252,Mairiporã,Deslizamento,-23.2074,-46.3557,98.92,77
+253,Avenida Aricanduva,Inundação,-23.5637,-46.5155,296.121,24
+254,Mairiporã,Deslizamento,-23.2089,-46.3451,111.209,80
+255,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.577,-46.5798,507.629,29
+256,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5835,-46.5843,463.963,31
+257,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5815,-46.5749,441.42,30
+258,Litoral Paulista,Deslizamento,-23.4921,-48.0608,223.197,52
+259,Litoral Paulista,Deslizamento,-23.4935,-48.0527,209.936,49
+260,Litoral Paulista,Deslizamento,-23.5037,-48.0477,218.063,50
+261,Franco da Rocha,Deslizamento,-23.3275,-46.7324,142.759,51
+262,Franco da Rocha,Deslizamento,-23.3151,-46.7333,159.21,50
+263,Litoral Paulista,Deslizamento,-23.4939,-48.0479,171.927,53
+264,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5879,-46.5849,536.526,33
+265,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5769,-46.577,501.12,33
+266,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5854,-46.5804,572.178,27
+267,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5799,-46.5817,541.977,32
+268,Mairiporã,Deslizamento,-23.1988,-46.3506,111.424,83
+269,Avenida Aricanduva,Inundação,-23.5629,-46.5021,234.28,25
+270,Avenida Aricanduva,Inundação,-23.562,-46.5159,250.117,22
+271,Avenida Aricanduva,Inundação,-23.5719,-46.5077,253.701,23
+272,Mairiporã,Deslizamento,-23.1974,-46.3435,103.002,80
+273,Avenida Aricanduva,Inundação,-23.5626,-46.5075,256.712,26
+274,Mairiporã,Deslizamento,-23.1979,-46.3534,107.192,79
+275,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.59,-46.5878,495.281,30
+276,Franco da Rocha,Deslizamento,-23.3284,-46.7213,151.459,51
+277,Litoral Paulista,Deslizamento,-23.5032,-48.0484,216.586,50
+278,Mairiporã,Deslizamento,-23.2066,-46.3441,87.593,80
+279,Litoral Paulista,Deslizamento,-23.4929,-48.0551,208.52,52
+280,Mairiporã,Deslizamento,-23.2066,-46.3436,95.174,80
+281,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5866,-46.5898,522.75,30
+282,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5762,-46.5827,570.229,32
+283,Franco da Rocha,Deslizamento,-23.3161,-46.7226,162.452,52
+284,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5778,-46.5803,444.687,31
+285,Avenida Aricanduva,Inundação,-23.5575,-46.514,262.975,27
+286,Franco da Rocha,Deslizamento,-23.3203,-46.731,152.874,47
+287,Avenida Aricanduva,Inundação,-23.572,-46.5077,247.566,24
+288,Litoral Paulista,Deslizamento,-23.5056,-48.0544,211.038,48
+289,Mairiporã,Deslizamento,-23.1999,-46.3455,106.049,79
+290,Mairiporã,Deslizamento,-23.2093,-46.3554,112.119,83
+291,Avenida Aricanduva,Inundação,-23.5618,-46.508,226.88,25
+292,Franco da Rocha,Deslizamento,-23.3217,-46.7336,143.508,47
+293,Litoral Paulista,Deslizamento,-23.5067,-48.0554,178.141,53
+294,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.579,-46.5775,455.023,33
+295,Avenida Aricanduva,Inundação,-23.5713,-46.5068,282.477,27
+296,Franco da Rocha,Deslizamento,-23.315,-46.7342,152.102,48
+297,Avenida Aricanduva,Inundação,-23.5591,-46.5056,290.078,27
+298,Mairiporã,Deslizamento,-23.2032,-46.3487,99.391,82
+299,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5775,-46.5826,431.113,30
+300,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.583,-46.5787,513.992,30
+301,Litoral Paulista,Deslizamento,-23.5003,-48.0519,189.931,52
+302,Avenida Aricanduva,Inundação,-23.5611,-46.5031,260.706,24
+303,Avenida Aricanduva,Inundação,-23.5641,-46.5055,244.331,22
+304,Mairiporã,Deslizamento,-23.2006,-46.3561,103.125,81
+305,Franco da Rocha,Deslizamento,-23.3166,-46.7322,171.009,48
+306,Litoral Paulista,Deslizamento,-23.4945,-48.0517,214.335,52
+307,Avenida Aricanduva,Inundação,-23.5649,-46.5083,267.117,22
+308,Avenida Aricanduva,Inundação,-23.5725,-46.5107,274.474,28
+309,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5773,-46.5798,573.82,28
+310,Litoral Paulista,Deslizamento,-23.5046,-48.0518,208.102,53
+311,Franco da Rocha,Deslizamento,-23.3279,-46.7235,168.677,53
+312,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5862,-46.5748,452.147,31
+313,Litoral Paulista,Deslizamento,-23.501,-48.0602,194.496,52
+314,Franco da Rocha,Deslizamento,-23.3194,-46.7335,157.098,47
+315,Franco da Rocha,Deslizamento,-23.3236,-46.7213,128.112,47
+316,Avenida Aricanduva,Inundação,-23.5709,-46.5015,262.312,24
+317,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5888,-46.5876,502.966,28
+318,Avenida Aricanduva,Inundação,-23.5597,-46.5101,245.947,24
+319,Avenida Aricanduva,Inundação,-23.5617,-46.5143,239.476,22
+320,Mairiporã,Deslizamento,-23.1992,-46.3487,97.09,77
+321,Avenida Aricanduva,Inundação,-23.5659,-46.5032,270.64,24
+322,Litoral Paulista,Deslizamento,-23.5075,-48.046,177.556,51
+323,Avenida Aricanduva,Inundação,-23.5722,-46.5068,244.031,26
+324,Litoral Paulista,Deslizamento,-23.5066,-48.0601,205.285,50
+325,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5836,-46.5826,527.895,32
+326,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5848,-46.5747,512.017,33
+327,Mairiporã,Deslizamento,-23.2032,-46.3486,87.259,82
+328,Litoral Paulista,Deslizamento,-23.5057,-48.0468,214.188,48
+329,Litoral Paulista,Deslizamento,-23.5065,-48.051,196.822,51
+330,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5794,-46.5746,481.145,32
+331,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5861,-46.577,554.691,27
+332,Avenida Aricanduva,Inundação,-23.5712,-46.5043,299.41,22
+333,Mairiporã,Deslizamento,-23.1959,-46.3461,102.736,77
+334,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5844,-46.5878,515.743,33
+335,Franco da Rocha,Deslizamento,-23.3161,-46.7191,161.618,51
+336,Litoral Paulista,Deslizamento,-23.5034,-48.0601,209.24,52
+337,Avenida Aricanduva,Inundação,-23.5623,-46.5041,286.93,22
+338,Mairiporã,Deslizamento,-23.1971,-46.3533,91.873,83
+339,Franco da Rocha,Deslizamento,-23.3247,-46.7249,155.191,53
+340,Litoral Paulista,Deslizamento,-23.5019,-48.053,205.995,47
+341,Mairiporã,Deslizamento,-23.2074,-46.3581,100.871,82
+342,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5779,-46.5823,506.355,28
+343,Avenida Aricanduva,Inundação,-23.5726,-46.5115,256.44,23
+344,Litoral Paulista,Deslizamento,-23.5041,-48.0542,193.856,53
+345,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5786,-46.582,548.359,29
+346,Litoral Paulista,Deslizamento,-23.4936,-48.0579,225.848,53
+347,Avenida Aricanduva,Inundação,-23.558,-46.5114,234.193,26
+348,Avenida Aricanduva,Inundação,-23.5689,-46.5124,250.622,28
+349,Avenida Aricanduva,Inundação,-23.5644,-46.512,274.805,23
+350,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5856,-46.5837,443.283,29
+351,Avenida Aricanduva,Inundação,-23.5701,-46.5086,282.682,22
+352,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.587,-46.5756,488.679,32
+353,Franco da Rocha,Deslizamento,-23.324,-46.7266,132.767,51
+354,Litoral Paulista,Deslizamento,-23.4939,-48.0582,182.905,48
+355,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5842,-46.5758,540.492,27
+356,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5859,-46.5855,534.794,30
+357,Avenida Aricanduva,Inundação,-23.5623,-46.504,287.279,23
+358,Franco da Rocha,Deslizamento,-23.3232,-46.7326,138.307,50
+359,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5824,-46.5817,451.767,31
+360,Mairiporã,Deslizamento,-23.2013,-46.3506,89.968,82
+361,Litoral Paulista,Deslizamento,-23.4985,-48.0539,229.496,49
+362,Litoral Paulista,Deslizamento,-23.4972,-48.0547,196.944,47
+363,Franco da Rocha,Deslizamento,-23.3297,-46.7295,164.606,50
+364,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5846,-46.5758,540.893,30
+365,Litoral Paulista,Deslizamento,-23.4937,-48.0587,189.592,49
+366,Franco da Rocha,Deslizamento,-23.3201,-46.7279,165.199,50
+367,Litoral Paulista,Deslizamento,-23.5069,-48.0516,186.455,48
+368,Mairiporã,Deslizamento,-23.2025,-46.3541,92.934,82
+369,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5741,-46.5797,508.668,28
+370,Avenida Aricanduva,Inundação,-23.572,-46.508,302.518,26
+371,Litoral Paulista,Deslizamento,-23.497,-48.0586,202.352,52
+372,Franco da Rocha,Deslizamento,-23.3169,-46.735,141.265,50
+373,Mairiporã,Deslizamento,-23.1962,-46.3555,94.88,82
+374,Litoral Paulista,Deslizamento,-23.4962,-48.0495,184.804,52
+375,Litoral Paulista,Deslizamento,-23.5065,-48.0577,217.491,47
+376,Litoral Paulista,Deslizamento,-23.4948,-48.0493,212.737,52
+377,Avenida Aricanduva,Inundação,-23.5681,-46.5128,254.839,26
+378,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.575,-46.5814,470.829,30
+379,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5804,-46.582,562.909,29
+380,Avenida Aricanduva,Inundação,-23.5594,-46.5137,300.361,23
+381,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.58,-46.5795,504.872,32
+382,Mairiporã,Deslizamento,-23.1984,-46.3544,85.535,81
+383,Mairiporã,Deslizamento,-23.2082,-46.3482,93.318,80
+384,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5797,-46.5771,444.879,32
+385,Franco da Rocha,Deslizamento,-23.3152,-46.7272,155.03,52
+386,Litoral Paulista,Deslizamento,-23.5029,-48.0466,219.732,51
+387,Litoral Paulista,Deslizamento,-23.5061,-48.0541,200.567,53
+388,Avenida Aricanduva,Inundação,-23.5717,-46.5046,235.838,25
+389,Litoral Paulista,Deslizamento,-23.493,-48.0478,186.852,53
+390,Litoral Paulista,Deslizamento,-23.5077,-48.0522,192.08,53
+391,Mairiporã,Deslizamento,-23.202,-46.3562,89.375,82
+392,Mairiporã,Deslizamento,-23.1989,-46.3494,91.887,83
+393,Mairiporã,Deslizamento,-23.2083,-46.3581,106.132,82
+394,Mairiporã,Deslizamento,-23.2082,-46.3482,101.3,80
+395,Franco da Rocha,Deslizamento,-23.3263,-46.7315,135.536,50
+396,Avenida Aricanduva,Inundação,-23.5594,-46.5054,289.309,28
+397,Litoral Paulista,Deslizamento,-23.5023,-48.0534,199.097,53
+398,Litoral Paulista,Deslizamento,-23.5018,-48.0464,185.1,52
+399,Mairiporã,Deslizamento,-23.2043,-46.3467,100.246,83
+400,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.587,-46.5804,473.525,28
+401,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5799,-46.5871,434.693,30
+402,Franco da Rocha,Deslizamento,-23.3282,-46.7262,148.185,50
+403,Litoral Paulista,Deslizamento,-23.5002,-48.0594,189.67,50
+404,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5824,-46.5843,484.171,32
+405,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5774,-46.576,568.3,27
+406,Franco da Rocha,Deslizamento,-23.3149,-46.7221,131.149,47
+407,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5751,-46.5863,542.176,30
+408,Mairiporã,Deslizamento,-23.2031,-46.3531,96.371,77
+409,Franco da Rocha,Deslizamento,-23.3289,-46.7267,134.473,50
+410,Franco da Rocha,Deslizamento,-23.3229,-46.7342,129.419,53
+411,Mairiporã,Deslizamento,-23.2005,-46.3465,86.252,77
+412,Litoral Paulista,Deslizamento,-23.4999,-48.0556,197.915,50
+413,Mairiporã,Deslizamento,-23.1955,-46.3442,106.166,79
+414,Mairiporã,Deslizamento,-23.2044,-46.3505,107.536,78
+415,Avenida Aricanduva,Inundação,-23.5586,-46.5045,244.282,22
+416,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5793,-46.5901,463.312,30
+417,Franco da Rocha,Deslizamento,-23.3197,-46.7265,129.596,48
+418,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5772,-46.5856,571.996,32
+419,Litoral Paulista,Deslizamento,-23.4987,-48.0498,218.925,50
+420,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.588,-46.5849,564.213,33
+421,Franco da Rocha,Deslizamento,-23.324,-46.7281,147.51,47
+422,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5749,-46.5864,443.225,29
+423,Franco da Rocha,Deslizamento,-23.3197,-46.7304,164.481,53
+424,Franco da Rocha,Deslizamento,-23.3259,-46.7263,156.374,52
+425,Litoral Paulista,Deslizamento,-23.4923,-48.0498,203.672,53
+426,Avenida Aricanduva,Inundação,-23.5721,-46.5119,286.204,22
+427,Avenida Aricanduva,Inundação,-23.5723,-46.5144,236.612,28
+428,Avenida Aricanduva,Inundação,-23.5599,-46.5136,266.467,25
+429,Litoral Paulista,Deslizamento,-23.5014,-48.0497,214.82,49
+430,Mairiporã,Deslizamento,-23.2086,-46.3578,100.1,77
+431,Litoral Paulista,Deslizamento,-23.5054,-48.0544,170.73,47
+432,Avenida Aricanduva,Inundação,-23.5614,-46.5011,234.014,23
+433,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5867,-46.5814,534.961,33
+434,Mairiporã,Deslizamento,-23.208,-46.3536,106.164,80
+435,Avenida Aricanduva,Inundação,-23.5729,-46.5048,228.918,22
+436,Franco da Rocha,Deslizamento,-23.3147,-46.7291,142.44,49
+437,Mairiporã,Deslizamento,-23.1951,-46.3534,96.327,80
+438,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5758,-46.5808,483.729,31
+439,Litoral Paulista,Deslizamento,-23.5075,-48.0591,181.06,51
+440,Avenida Aricanduva,Inundação,-23.5666,-46.503,266.807,24
+441,Litoral Paulista,Deslizamento,-23.4987,-48.0528,203.843,52
+442,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5804,-46.5807,428.44,29
+443,Franco da Rocha,Deslizamento,-23.3198,-46.7326,159.049,50
+444,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5787,-46.5777,502.59,31
+445,Avenida Aricanduva,Inundação,-23.571,-46.5052,244.921,28
+446,Avenida Aricanduva,Inundação,-23.572,-46.5042,287.274,22
+447,Avenida Aricanduva,Inundação,-23.5682,-46.5142,276.977,25
+448,Mairiporã,Deslizamento,-23.2,-46.3434,105.091,83
+449,Franco da Rocha,Deslizamento,-23.3148,-46.7318,153.195,48
+450,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5874,-46.5791,512.872,32
+451,Litoral Paulista,Deslizamento,-23.4968,-48.0469,217.172,49
+452,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5764,-46.5867,481.537,31
+453,Avenida Aricanduva,Inundação,-23.5602,-46.5097,264.641,27
+454,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5887,-46.5787,499.469,27
+455,Franco da Rocha,Deslizamento,-23.3299,-46.7341,137.856,50
+456,Avenida Aricanduva,Inundação,-23.5666,-46.5022,263.77,26
+457,Avenida Aricanduva,Inundação,-23.5723,-46.5164,248.102,28
+458,Avenida Aricanduva,Inundação,-23.5604,-46.5014,255.722,28
+459,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5765,-46.586,448.457,30
+460,Mairiporã,Deslizamento,-23.21,-46.3448,87.247,80
+461,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5834,-46.5847,559.975,28
+462,Mairiporã,Deslizamento,-23.1956,-46.3503,110.656,78
+463,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5833,-46.5861,534.623,28
+464,Litoral Paulista,Deslizamento,-23.5039,-48.0513,182.068,47
+465,Mairiporã,Deslizamento,-23.2061,-46.3441,111.552,81
+466,Franco da Rocha,Deslizamento,-23.3296,-46.7235,146.545,47
+467,Franco da Rocha,Deslizamento,-23.3216,-46.7332,166.473,48
+468,Mairiporã,Deslizamento,-23.2099,-46.348,99.113,82
+469,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5822,-46.5876,566.855,27
+470,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5884,-46.5765,494.024,33
+471,Avenida Aricanduva,Inundação,-23.572,-46.5088,290.451,23
+472,Mairiporã,Deslizamento,-23.2102,-46.3467,89.07,83
+473,Litoral Paulista,Deslizamento,-23.5054,-48.0565,215.62,52
+474,Litoral Paulista,Deslizamento,-23.4974,-48.0592,185.515,51
+475,Franco da Rocha,Deslizamento,-23.321,-46.723,152.854,48
+476,Franco da Rocha,Deslizamento,-23.3285,-46.7295,140.435,48
+477,Avenida Aricanduva,Inundação,-23.5602,-46.511,262.145,24
+478,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5885,-46.5832,454.341,30
+479,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5885,-46.5846,538.622,31
+480,Litoral Paulista,Deslizamento,-23.503,-48.0515,181.932,52
+481,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5875,-46.5792,543.989,33
+482,Mairiporã,Deslizamento,-23.2052,-46.3449,88.116,82
+483,Franco da Rocha,Deslizamento,-23.3204,-46.7345,144.097,50
+484,Mairiporã,Deslizamento,-23.206,-46.3465,111.564,79
+485,Franco da Rocha,Deslizamento,-23.3171,-46.7269,171.295,53
+486,Litoral Paulista,Deslizamento,-23.4923,-48.0511,208.288,50
+487,Avenida Aricanduva,Inundação,-23.5589,-46.5102,239.046,24
+488,Litoral Paulista,Deslizamento,-23.499,-48.0534,213.374,48
+489,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5887,-46.5786,453.112,31
+490,Franco da Rocha,Deslizamento,-23.3169,-46.7263,159.717,50
+491,Franco da Rocha,Deslizamento,-23.3225,-46.7219,148.405,51
+492,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5769,-46.5762,503.815,31
+493,Avenida Aricanduva,Inundação,-23.5598,-46.5154,245.242,25
+494,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5844,-46.5831,537.324,27
+495,Franco da Rocha,Deslizamento,-23.3165,-46.7275,171.835,49
+496,Franco da Rocha,Deslizamento,-23.328,-46.7242,142.358,50
+497,Franco da Rocha,Deslizamento,-23.3195,-46.7191,130.98,53
+498,Mairiporã,Deslizamento,-23.1999,-46.3511,92.121,83
+499,Litoral Paulista,Deslizamento,-23.5075,-48.0569,209.399,52
+500,Avenida Aricanduva,Inundação,-23.5591,-46.5047,289.018,26
+501,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5796,-46.5763,425.028,29
+502,Mairiporã,Deslizamento,-23.2048,-46.3532,89.814,81
+503,Mairiporã,Deslizamento,-23.2044,-46.3465,97.221,77
+504,Franco da Rocha,Deslizamento,-23.3233,-46.7346,171.256,52
+505,Franco da Rocha,Deslizamento,-23.3253,-46.7204,161.688,47
+506,Avenida Aricanduva,Inundação,-23.5727,-46.5016,284.088,24
+507,Avenida Aricanduva,Inundação,-23.5597,-46.5125,295.746,27
+508,Litoral Paulista,Deslizamento,-23.4993,-48.0603,184.698,47
+509,Avenida Aricanduva,Inundação,-23.5682,-46.5074,249.82,24
+510,Franco da Rocha,Deslizamento,-23.3292,-46.7206,166.118,47
+511,Litoral Paulista,Deslizamento,-23.4985,-48.0475,181.301,53
+512,Litoral Paulista,Deslizamento,-23.4946,-48.0572,195.947,49
+513,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5808,-46.5798,462.846,31
+514,Mairiporã,Deslizamento,-23.2032,-46.3475,98.576,77
+515,Avenida Aricanduva,Inundação,-23.5591,-46.516,302.375,26
+516,Avenida Aricanduva,Inundação,-23.5584,-46.5096,237.074,24
+517,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5874,-46.5876,567.216,32
+518,Avenida Aricanduva,Inundação,-23.5604,-46.5068,280.079,25
+519,Avenida Aricanduva,Inundação,-23.5693,-46.5044,303.567,25
+520,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5857,-46.5827,572.576,33
+521,Franco da Rocha,Deslizamento,-23.33,-46.7344,154.932,49
+522,Mairiporã,Deslizamento,-23.2066,-46.3438,92.885,77
+523,Mairiporã,Deslizamento,-23.2079,-46.3495,91.398,77
+524,Litoral Paulista,Deslizamento,-23.4994,-48.0481,173.143,49
+525,Avenida Aricanduva,Inundação,-23.5713,-46.5116,290.146,22
+526,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5853,-46.5754,484.552,31
+527,Franco da Rocha,Deslizamento,-23.3201,-46.7332,143.265,53
+528,Franco da Rocha,Deslizamento,-23.3295,-46.7242,129.727,49
+529,Litoral Paulista,Deslizamento,-23.4931,-48.0592,193.586,49
+530,Avenida Aricanduva,Inundação,-23.5589,-46.5063,246.702,26
+531,Franco da Rocha,Deslizamento,-23.3168,-46.7197,164.718,47
+532,Mairiporã,Deslizamento,-23.211,-46.3478,107.509,77
+533,Avenida Aricanduva,Inundação,-23.562,-46.5152,256.73,28
+534,Avenida Aricanduva,Inundação,-23.5671,-46.5151,259.532,25
+535,Franco da Rocha,Deslizamento,-23.3289,-46.7337,143.695,53
+536,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5793,-46.5794,479.288,29
+537,Litoral Paulista,Deslizamento,-23.5078,-48.0516,225.022,47
+538,Avenida Aricanduva,Inundação,-23.5703,-46.5068,285.23,26
+539,Mairiporã,Deslizamento,-23.2025,-46.357,83.503,82
+540,Avenida Aricanduva,Inundação,-23.5683,-46.5092,272.161,23
+541,Litoral Paulista,Deslizamento,-23.506,-48.0529,190.781,53
+542,Franco da Rocha,Deslizamento,-23.3289,-46.7288,166.099,50
+543,Mairiporã,Deslizamento,-23.2098,-46.3506,108.452,82
+544,Avenida Aricanduva,Inundação,-23.5694,-46.5109,262.02,25
+545,Franco da Rocha,Deslizamento,-23.3231,-46.7299,153.946,48
+546,Mairiporã,Deslizamento,-23.2014,-46.348,103.365,83
+547,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5873,-46.5834,446.389,27
+548,Franco da Rocha,Deslizamento,-23.3149,-46.7296,151.018,48
+549,Avenida Aricanduva,Inundação,-23.5729,-46.5108,289.279,24
+550,Franco da Rocha,Deslizamento,-23.3284,-46.7214,151.642,50
+551,Avenida Aricanduva,Inundação,-23.564,-46.5153,239.455,23
+552,Litoral Paulista,Deslizamento,-23.5043,-48.0462,202.117,51
+553,Avenida Aricanduva,Inundação,-23.5714,-46.5137,299.966,24
+554,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5837,-46.5853,447.059,31
+555,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5756,-46.5884,568.388,31
+556,Mairiporã,Deslizamento,-23.1968,-46.3497,107.424,77
+557,Litoral Paulista,Deslizamento,-23.5034,-48.0464,193.562,51
+558,Avenida Aricanduva,Inundação,-23.5573,-46.5094,268.574,26
+559,Litoral Paulista,Deslizamento,-23.4947,-48.0548,188.328,51
+560,Mairiporã,Deslizamento,-23.2082,-46.3512,103.041,81
+561,Avenida Aricanduva,Inundação,-23.5597,-46.5083,239.286,28
+562,Litoral Paulista,Deslizamento,-23.5009,-48.0518,199.533,49
+563,Litoral Paulista,Deslizamento,-23.4921,-48.0477,207.612,47
+564,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5826,-46.5786,447.198,31
+565,Franco da Rocha,Deslizamento,-23.3186,-46.7205,133.671,49
+566,Litoral Paulista,Deslizamento,-23.4984,-48.0561,197.705,52
+567,Litoral Paulista,Deslizamento,-23.4961,-48.053,173.638,50
+568,Franco da Rocha,Deslizamento,-23.316,-46.7199,134.411,49
+569,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5743,-46.5826,554.532,33
+570,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5821,-46.5819,509.407,33
+571,Mairiporã,Deslizamento,-23.2028,-46.3514,100.103,79
+572,Litoral Paulista,Deslizamento,-23.4923,-48.0553,219.871,53
+573,Avenida Aricanduva,Inundação,-23.5601,-46.5094,305.591,25
+574,Litoral Paulista,Deslizamento,-23.501,-48.0482,223.809,49
+575,Mairiporã,Deslizamento,-23.2038,-46.3511,101.551,83
+576,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5824,-46.5793,533.406,32
+577,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5878,-46.5855,478.807,28
+578,Franco da Rocha,Deslizamento,-23.3255,-46.7316,170.859,53
+579,Mairiporã,Deslizamento,-23.195,-46.3485,107.476,83
+580,Mairiporã,Deslizamento,-23.1992,-46.346,104.893,81
+581,Litoral Paulista,Deslizamento,-23.4959,-48.0495,209.722,53
+582,Franco da Rocha,Deslizamento,-23.3165,-46.7252,131.698,47
+583,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5888,-46.5838,486.066,32
+584,Mairiporã,Deslizamento,-23.2054,-46.3575,106.882,81
+585,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5899,-46.5887,555.342,28
+586,Franco da Rocha,Deslizamento,-23.322,-46.7223,159.575,50
+587,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5888,-46.5839,469.294,30
+588,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5855,-46.5774,564.384,32
+589,Mairiporã,Deslizamento,-23.2106,-46.35,107.88,77
+590,Franco da Rocha,Deslizamento,-23.3265,-46.7345,137.379,49
+591,Franco da Rocha,Deslizamento,-23.3178,-46.732,160.148,52
+592,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5806,-46.5803,435.766,28
+593,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5786,-46.5771,545.594,32
+594,Avenida Aricanduva,Inundação,-23.5707,-46.5046,247.758,28
+595,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5879,-46.5802,433.15,30
+596,Franco da Rocha,Deslizamento,-23.3249,-46.735,150.743,48
+597,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5856,-46.579,434.403,28
+598,Franco da Rocha,Deslizamento,-23.3246,-46.72,131.433,50
+599,Mairiporã,Deslizamento,-23.1978,-46.3572,99.742,78
+600,Avenida Aricanduva,Inundação,-23.5639,-46.5025,301.35,24
+601,Franco da Rocha,Deslizamento,-23.324,-46.72,158.135,47
+602,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5893,-46.5813,564.526,27
+603,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5878,-46.5862,556.327,31
+604,Franco da Rocha,Deslizamento,-23.3255,-46.7329,158.179,47
+605,Franco da Rocha,Deslizamento,-23.3283,-46.7225,156.738,48
+606,Franco da Rocha,Deslizamento,-23.3242,-46.7197,150.259,47
+607,Mairiporã,Deslizamento,-23.2037,-46.356,93.981,80
+608,Franco da Rocha,Deslizamento,-23.3292,-46.7227,146.478,51
+609,Avenida Aricanduva,Inundação,-23.5594,-46.5136,278.557,24
+610,Franco da Rocha,Deslizamento,-23.3173,-46.7229,129.325,47
+611,Avenida Aricanduva,Inundação,-23.5612,-46.5119,277.558,26
+612,Avenida Aricanduva,Inundação,-23.5616,-46.5138,297.139,25
+613,Mairiporã,Deslizamento,-23.2051,-46.3584,86.433,78
+614,Litoral Paulista,Deslizamento,-23.5037,-48.0484,171.052,51
+615,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5897,-46.5883,487.046,27
+616,Mairiporã,Deslizamento,-23.2045,-46.3508,100.627,81
+617,Mairiporã,Deslizamento,-23.197,-46.3586,94.831,77
+618,Avenida Aricanduva,Inundação,-23.5657,-46.5127,243.64,25
+619,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5763,-46.5811,436.458,33
+620,Franco da Rocha,Deslizamento,-23.3281,-46.7308,128.496,51
+621,Franco da Rocha,Deslizamento,-23.3176,-46.7267,143.394,52
+622,Avenida Aricanduva,Inundação,-23.573,-46.5122,277.687,28
+623,Avenida Aricanduva,Inundação,-23.5594,-46.5166,297.805,22
+624,Franco da Rocha,Deslizamento,-23.3253,-46.7317,134.571,49
+625,Litoral Paulista,Deslizamento,-23.5043,-48.0579,199.244,53
+626,Avenida Aricanduva,Inundação,-23.5654,-46.5161,302.532,22
+627,Litoral Paulista,Deslizamento,-23.4995,-48.0514,208.884,50
+628,Franco da Rocha,Deslizamento,-23.3267,-46.7234,155.638,47
+629,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5764,-46.5853,466.436,31
+630,Litoral Paulista,Deslizamento,-23.4996,-48.0473,180.013,49
+631,Mairiporã,Deslizamento,-23.198,-46.3441,93.061,82
+632,Avenida Aricanduva,Inundação,-23.5644,-46.516,281.162,23
+633,Franco da Rocha,Deslizamento,-23.3151,-46.727,138.083,52
+634,Franco da Rocha,Deslizamento,-23.3147,-46.7265,138.608,51
+635,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5791,-46.5891,466.206,32
+636,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5813,-46.5874,493.79,29
+637,Litoral Paulista,Deslizamento,-23.5003,-48.0474,210.671,47
+638,Mairiporã,Deslizamento,-23.1983,-46.3456,90.262,82
+639,Franco da Rocha,Deslizamento,-23.3268,-46.7198,172.544,49
+640,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5816,-46.5868,493.845,28
+641,Mairiporã,Deslizamento,-23.2082,-46.3559,83.542,82
+642,Avenida Aricanduva,Inundação,-23.5597,-46.5053,254.432,22
+643,Mairiporã,Deslizamento,-23.2047,-46.3441,111.543,81
+644,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5824,-46.5788,462.101,27
+645,Mairiporã,Deslizamento,-23.2003,-46.3567,99.745,82
+646,Litoral Paulista,Deslizamento,-23.5,-48.0616,170.713,51
+647,Avenida Aricanduva,Inundação,-23.5582,-46.5133,276.722,23
+648,Avenida Aricanduva,Inundação,-23.5702,-46.5088,290.6,27
+649,Litoral Paulista,Deslizamento,-23.5041,-48.0554,223.902,51
+650,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5756,-46.5878,573.513,28
+651,Mairiporã,Deslizamento,-23.2031,-46.3511,97.293,79
+652,Avenida Aricanduva,Inundação,-23.5715,-46.5165,230.705,28
+653,Mairiporã,Deslizamento,-23.2066,-46.3493,112.288,81
+654,Avenida Aricanduva,Inundação,-23.5638,-46.5104,293.712,22
+655,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.576,-46.5747,429.128,29
+656,Mairiporã,Deslizamento,-23.199,-46.3556,111.228,82
+657,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5791,-46.5867,489.707,29
+658,Mairiporã,Deslizamento,-23.2042,-46.3541,107.804,81
+659,Avenida Aricanduva,Inundação,-23.5661,-46.5025,293.599,26
+660,Litoral Paulista,Deslizamento,-23.4958,-48.0486,223.557,48
+661,Avenida Aricanduva,Inundação,-23.5697,-46.5129,249.696,28
+662,Avenida Aricanduva,Inundação,-23.5628,-46.5112,249.66,24
+663,Litoral Paulista,Deslizamento,-23.5006,-48.0603,219.824,53
+664,Litoral Paulista,Deslizamento,-23.4964,-48.0494,191.347,50
+665,Mairiporã,Deslizamento,-23.2027,-46.3519,84.492,80
+666,Litoral Paulista,Deslizamento,-23.5074,-48.0598,216.149,47
+667,Litoral Paulista,Deslizamento,-23.5013,-48.0534,173.451,48
+668,Litoral Paulista,Deslizamento,-23.5031,-48.0581,170.259,53
+669,Avenida Aricanduva,Inundação,-23.5575,-46.5134,279.011,28
+670,Franco da Rocha,Deslizamento,-23.3164,-46.7282,141.359,52
+671,Litoral Paulista,Deslizamento,-23.4966,-48.0487,181.078,52
+672,Mairiporã,Deslizamento,-23.195,-46.3528,89.631,82
+673,Litoral Paulista,Deslizamento,-23.4993,-48.0594,193.034,53
+674,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5787,-46.5876,542.095,27
+675,Franco da Rocha,Deslizamento,-23.3148,-46.7343,139.664,50
+676,Avenida Aricanduva,Inundação,-23.5629,-46.5149,270.795,22
+677,Franco da Rocha,Deslizamento,-23.3187,-46.7322,171.534,53
+678,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5788,-46.5789,494.257,27
+679,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5783,-46.5765,466.111,29
+680,Franco da Rocha,Deslizamento,-23.3269,-46.7295,142.832,50
+681,Litoral Paulista,Deslizamento,-23.4943,-48.0506,213.837,53
+682,Litoral Paulista,Deslizamento,-23.4928,-48.0539,193.024,53
+683,Avenida Aricanduva,Inundação,-23.5604,-46.5052,256.772,24
+684,Mairiporã,Deslizamento,-23.1976,-46.3591,103.814,82
+685,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.583,-46.5865,530.731,29
+686,Franco da Rocha,Deslizamento,-23.3215,-46.7263,147.068,51
+687,Mairiporã,Deslizamento,-23.2033,-46.3574,111.381,82
+688,Mairiporã,Deslizamento,-23.1958,-46.3557,108.969,77
+689,Avenida Aricanduva,Inundação,-23.5622,-46.507,251.361,27
+690,Mairiporã,Deslizamento,-23.203,-46.3582,92.342,83
+691,Mairiporã,Deslizamento,-23.1974,-46.3436,101.592,80
+692,Avenida Aricanduva,Inundação,-23.57,-46.5167,257.276,26
+693,Mairiporã,Deslizamento,-23.2044,-46.3443,95.796,80
+694,Litoral Paulista,Deslizamento,-23.5069,-48.0493,187.333,47
+695,Mairiporã,Deslizamento,-23.2002,-46.3581,89.188,83
+696,Avenida Aricanduva,Inundação,-23.5573,-46.5044,284.632,28
+697,Mairiporã,Deslizamento,-23.1984,-46.3497,112.227,78
+698,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5754,-46.5901,492.517,28
+699,Franco da Rocha,Deslizamento,-23.3284,-46.7262,171.829,47
+700,Litoral Paulista,Deslizamento,-23.505,-48.0525,182.449,47
+701,Avenida Aricanduva,Inundação,-23.5718,-46.5073,267.34,24
+702,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5854,-46.5798,570.281,29
+703,Mairiporã,Deslizamento,-23.2098,-46.3441,91.885,82
+704,Avenida Aricanduva,Inundação,-23.5634,-46.507,277.851,27
+705,Litoral Paulista,Deslizamento,-23.5078,-48.0464,185.239,48
+706,Franco da Rocha,Deslizamento,-23.3187,-46.7252,141.808,50
+707,Mairiporã,Deslizamento,-23.2014,-46.3454,110.947,78
+708,Franco da Rocha,Deslizamento,-23.3275,-46.7199,160.902,51
+709,Mairiporã,Deslizamento,-23.1986,-46.3493,94.124,81
+710,Avenida Aricanduva,Inundação,-23.563,-46.5108,300.814,22
+711,Avenida Aricanduva,Inundação,-23.558,-46.5135,284.013,27
+712,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5782,-46.5869,524.749,28
+713,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5781,-46.5851,558.509,31
+714,Franco da Rocha,Deslizamento,-23.3231,-46.7309,147.284,47
+715,Mairiporã,Deslizamento,-23.2109,-46.3499,101.16,77
+716,Franco da Rocha,Deslizamento,-23.3261,-46.7236,131.824,47
+717,Litoral Paulista,Deslizamento,-23.494,-48.05,170.996,53
+718,Franco da Rocha,Deslizamento,-23.3266,-46.7307,138.863,49
+719,Litoral Paulista,Deslizamento,-23.5012,-48.0584,206.032,48
+720,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5758,-46.5842,499.025,33
+721,Litoral Paulista,Deslizamento,-23.4954,-48.0554,201.017,53
+722,Mairiporã,Deslizamento,-23.2027,-46.3582,94.052,77
+723,Litoral Paulista,Deslizamento,-23.4986,-48.0532,186.317,50
+724,Franco da Rocha,Deslizamento,-23.3157,-46.7243,163.194,51
+725,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5799,-46.5863,530.819,28
+726,Avenida Aricanduva,Inundação,-23.5644,-46.5147,288.662,23
+727,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.582,-46.5777,514.827,31
+728,Avenida Aricanduva,Inundação,-23.5636,-46.5105,263.568,25
+729,Avenida Aricanduva,Inundação,-23.5713,-46.5048,258.792,23
+730,Franco da Rocha,Deslizamento,-23.3258,-46.7324,134.937,51
+731,Franco da Rocha,Deslizamento,-23.327,-46.7244,167.445,51
+732,Avenida Aricanduva,Inundação,-23.5659,-46.5041,226.736,25
+733,Avenida Aricanduva,Inundação,-23.5659,-46.5081,246.44,26
+734,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5767,-46.5777,471.169,33
+735,Litoral Paulista,Deslizamento,-23.5028,-48.0561,200.538,53
+736,Franco da Rocha,Deslizamento,-23.3249,-46.7205,131.204,51
+737,Mairiporã,Deslizamento,-23.2054,-46.351,106.478,83
+738,Franco da Rocha,Deslizamento,-23.3245,-46.7276,146.388,53
+739,Franco da Rocha,Deslizamento,-23.3274,-46.7242,135.784,52
+740,Avenida Aricanduva,Inundação,-23.5693,-46.5151,239.29,26
+741,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5815,-46.5777,469.518,32
+742,Franco da Rocha,Deslizamento,-23.3245,-46.7284,160.716,49
+743,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5843,-46.5886,458.354,27
+744,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5803,-46.5864,433.66,32
+745,Mairiporã,Deslizamento,-23.2056,-46.3473,99.946,79
+746,Litoral Paulista,Deslizamento,-23.5014,-48.0497,222.51,49
+747,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5834,-46.5782,455.55,28
+748,Mairiporã,Deslizamento,-23.2023,-46.3501,83.81,83
+749,Litoral Paulista,Deslizamento,-23.4969,-48.0539,226.214,53
+750,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5818,-46.5885,539.72,29
+751,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5819,-46.5836,427.719,27
+752,Mairiporã,Deslizamento,-23.2099,-46.3517,99.616,81
+753,Mairiporã,Deslizamento,-23.2,-46.3552,83.453,80
+754,Franco da Rocha,Deslizamento,-23.3214,-46.7216,164.727,47
+755,Mairiporã,Deslizamento,-23.209,-46.3547,98.762,81
+756,Mairiporã,Deslizamento,-23.1979,-46.3528,97.376,79
+757,Litoral Paulista,Deslizamento,-23.5014,-48.0514,171.101,48
+758,Avenida Aricanduva,Inundação,-23.5701,-46.5051,293.765,25
+759,Franco da Rocha,Deslizamento,-23.3143,-46.7278,150.844,52
+760,Avenida Aricanduva,Inundação,-23.557,-46.5081,251.729,24
+761,Mairiporã,Deslizamento,-23.2054,-46.3533,85.177,82
+762,Avenida Aricanduva,Inundação,-23.5656,-46.5054,278.507,24
+763,Mairiporã,Deslizamento,-23.2049,-46.346,107.882,77
+764,Avenida Aricanduva,Inundação,-23.5629,-46.5155,234.374,22
+765,Avenida Aricanduva,Inundação,-23.5607,-46.5077,288.5,26
+766,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5779,-46.5901,456.086,30
+767,Litoral Paulista,Deslizamento,-23.5018,-48.0512,191.009,52
+768,Litoral Paulista,Deslizamento,-23.5055,-48.0577,206.531,51
+769,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5758,-46.581,519.859,28
+770,Avenida Aricanduva,Inundação,-23.5654,-46.5055,247.721,24
+771,Franco da Rocha,Deslizamento,-23.3261,-46.7316,146.854,50
+772,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5819,-46.5873,436.546,28
+773,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5839,-46.5772,523.927,27
+774,Franco da Rocha,Deslizamento,-23.3258,-46.72,156.388,47
+775,Litoral Paulista,Deslizamento,-23.4948,-48.0544,186.894,49
+776,Avenida Aricanduva,Inundação,-23.5598,-46.516,288.088,28
+777,Avenida Aricanduva,Inundação,-23.5656,-46.5013,288.879,23
+778,Litoral Paulista,Deslizamento,-23.496,-48.0594,183.217,51
+779,Litoral Paulista,Deslizamento,-23.4939,-48.0579,203.644,52
+780,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5775,-46.5834,455.16,33
+781,Litoral Paulista,Deslizamento,-23.501,-48.0511,175.835,49
+782,Franco da Rocha,Deslizamento,-23.3208,-46.7339,131.983,50
+783,Avenida Aricanduva,Inundação,-23.5678,-46.505,290.472,23
+784,Mairiporã,Deslizamento,-23.195,-46.3554,84.344,81
+785,Litoral Paulista,Deslizamento,-23.5059,-48.0614,191.817,49
+786,Mairiporã,Deslizamento,-23.2108,-46.358,92.323,82
+787,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5787,-46.5854,444.897,29
+788,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.581,-46.5803,554.665,28
+789,Mairiporã,Deslizamento,-23.2017,-46.3434,105.37,79
+790,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5787,-46.5841,459.331,29
+791,Mairiporã,Deslizamento,-23.1961,-46.3538,98.647,79
+792,Litoral Paulista,Deslizamento,-23.4921,-48.0461,209.18,47
+793,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5786,-46.5808,433.002,29
+794,Litoral Paulista,Deslizamento,-23.4972,-48.051,192.58,53
+795,Mairiporã,Deslizamento,-23.2083,-46.3513,103.438,83
+796,Franco da Rocha,Deslizamento,-23.3196,-46.7306,134.745,53
+797,Avenida Aricanduva,Inundação,-23.5664,-46.5137,229.479,23
+798,Franco da Rocha,Deslizamento,-23.3166,-46.7323,128.568,47
+799,Mairiporã,Deslizamento,-23.1998,-46.3459,106.723,82
+800,Mairiporã,Deslizamento,-23.2008,-46.344,109.036,78
+801,Litoral Paulista,Deslizamento,-23.4947,-48.0515,174.888,49
+802,Avenida Aricanduva,Inundação,-23.5673,-46.5162,228.633,23
+803,Franco da Rocha,Deslizamento,-23.3203,-46.7209,167.5,52
+804,Mairiporã,Deslizamento,-23.2076,-46.3455,109.167,79
+805,Litoral Paulista,Deslizamento,-23.4952,-48.0476,177.691,49
+806,Avenida Aricanduva,Inundação,-23.5695,-46.5059,274.223,22
+807,Litoral Paulista,Deslizamento,-23.507,-48.0564,174.195,53
+808,Avenida Aricanduva,Inundação,-23.5599,-46.5034,300.95,24
+809,Mairiporã,Deslizamento,-23.1984,-46.3526,88.094,79
+810,Avenida Aricanduva,Inundação,-23.5721,-46.5019,232.071,28
+811,Litoral Paulista,Deslizamento,-23.4995,-48.046,180.141,50
+812,Mairiporã,Deslizamento,-23.2058,-46.3545,89.984,80
+813,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5859,-46.5846,526.099,30
+814,Litoral Paulista,Deslizamento,-23.5053,-48.0474,216.825,52
+815,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5767,-46.579,517.583,32
+816,Litoral Paulista,Deslizamento,-23.5003,-48.0493,188.406,49
+817,Avenida Aricanduva,Inundação,-23.5686,-46.5092,232.665,28
+818,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5768,-46.5894,487.791,27
+819,Litoral Paulista,Deslizamento,-23.5024,-48.053,229.736,47
+820,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.585,-46.5817,551.016,27
+821,Franco da Rocha,Deslizamento,-23.315,-46.7347,151.267,51
+822,Franco da Rocha,Deslizamento,-23.3221,-46.7273,165.486,53
+823,Franco da Rocha,Deslizamento,-23.3162,-46.7285,142.499,50
+824,Mairiporã,Deslizamento,-23.1988,-46.3573,88.925,77
+825,Franco da Rocha,Deslizamento,-23.3272,-46.7259,153.816,48
+826,Avenida Aricanduva,Inundação,-23.5575,-46.5021,285.28,24
+827,Avenida Aricanduva,Inundação,-23.5704,-46.5033,265.263,27
+828,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5755,-46.5806,511.492,33
+829,Franco da Rocha,Deslizamento,-23.3174,-46.731,170.023,49
+830,Avenida Aricanduva,Inundação,-23.5641,-46.5035,289.615,27
+831,Avenida Aricanduva,Inundação,-23.5622,-46.5135,243.513,23
+832,Avenida Aricanduva,Inundação,-23.569,-46.5128,226.152,28
+833,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5773,-46.5803,537.54,32
+834,Avenida Aricanduva,Inundação,-23.5657,-46.5114,233.583,23
+835,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5748,-46.5752,516.491,29
+836,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5774,-46.5809,425.965,30
+837,Franco da Rocha,Deslizamento,-23.3188,-46.7252,161.979,53
+838,Franco da Rocha,Deslizamento,-23.3187,-46.72,144.643,52
+839,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5873,-46.5898,455.667,33
+840,Franco da Rocha,Deslizamento,-23.3218,-46.7252,168.748,48
+841,Avenida Aricanduva,Inundação,-23.565,-46.5162,228.886,22
+842,Franco da Rocha,Deslizamento,-23.323,-46.7216,134.947,49
+843,Mairiporã,Deslizamento,-23.2038,-46.3555,84.616,77
+844,Litoral Paulista,Deslizamento,-23.5062,-48.0521,187.05,52
+845,Avenida Aricanduva,Inundação,-23.5669,-46.5042,257.389,24
+846,Mairiporã,Deslizamento,-23.2006,-46.3559,99.492,81
+847,Litoral Paulista,Deslizamento,-23.4946,-48.047,192.145,52
+848,Litoral Paulista,Deslizamento,-23.496,-48.0549,175.428,47
+849,Mairiporã,Deslizamento,-23.2043,-46.3546,92.91,78
+850,Mairiporã,Deslizamento,-23.2008,-46.3497,102.337,82
+851,Avenida Aricanduva,Inundação,-23.5594,-46.5018,296.711,25
+852,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5754,-46.5849,493.343,28
+853,Franco da Rocha,Deslizamento,-23.3187,-46.725,172.331,48
+854,Avenida Aricanduva,Inundação,-23.5676,-46.5157,261.435,22
+855,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5845,-46.5769,565.323,28
+856,Avenida Aricanduva,Inundação,-23.5698,-46.5144,245.251,25
+857,Litoral Paulista,Deslizamento,-23.5009,-48.0538,184.984,52
+858,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5755,-46.5799,465.956,29
+859,Mairiporã,Deslizamento,-23.2063,-46.3575,110.794,77
+860,Mairiporã,Deslizamento,-23.2076,-46.3487,95.229,78
+861,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5757,-46.5758,472.082,33
+862,Franco da Rocha,Deslizamento,-23.323,-46.7233,170.083,51
+863,Franco da Rocha,Deslizamento,-23.3162,-46.7218,135.518,51
+864,Franco da Rocha,Deslizamento,-23.3281,-46.7241,170.519,52
+865,Avenida Aricanduva,Inundação,-23.5613,-46.5069,272.672,23
+866,Litoral Paulista,Deslizamento,-23.5023,-48.0611,183.258,53
+867,Avenida Aricanduva,Inundação,-23.5637,-46.5153,295.767,28
+868,Mairiporã,Deslizamento,-23.2044,-46.3503,110.827,83
+869,Mairiporã,Deslizamento,-23.1982,-46.3576,100.091,83
+870,Litoral Paulista,Deslizamento,-23.5061,-48.0461,183.065,47
+871,Mairiporã,Deslizamento,-23.2015,-46.3475,84.112,82
+872,Mairiporã,Deslizamento,-23.2025,-46.3576,88.223,79
+873,Litoral Paulista,Deslizamento,-23.5041,-48.055,217.832,53
+874,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5831,-46.5847,432.552,30
+875,Franco da Rocha,Deslizamento,-23.3189,-46.7277,137.915,53
+876,Franco da Rocha,Deslizamento,-23.326,-46.7258,143.895,51
+877,Franco da Rocha,Deslizamento,-23.3288,-46.7207,163.489,52
+878,Franco da Rocha,Deslizamento,-23.3247,-46.7317,131.522,47
+879,Litoral Paulista,Deslizamento,-23.4945,-48.0583,193.052,51
+880,Litoral Paulista,Deslizamento,-23.5018,-48.0545,188.385,49
+881,Avenida Aricanduva,Inundação,-23.5711,-46.5021,280.673,22
+882,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5895,-46.5827,486.162,32
+883,Mairiporã,Deslizamento,-23.2005,-46.3438,99.66,82
+884,Litoral Paulista,Deslizamento,-23.5044,-48.058,200.939,53
+885,Mairiporã,Deslizamento,-23.2103,-46.3482,102.186,80
+886,Avenida Aricanduva,Inundação,-23.5621,-46.502,229.834,26
+887,Litoral Paulista,Deslizamento,-23.502,-48.0577,176.529,50
+888,Litoral Paulista,Deslizamento,-23.4995,-48.0532,186.873,53
+889,Avenida Aricanduva,Inundação,-23.5641,-46.5165,298.498,25
+890,Litoral Paulista,Deslizamento,-23.5045,-48.0535,212.819,49
+891,Mairiporã,Deslizamento,-23.2068,-46.3543,107.711,83
+892,Avenida Aricanduva,Inundação,-23.5583,-46.5068,276.36,24
+893,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.585,-46.5896,542.145,33
+894,Avenida Aricanduva,Inundação,-23.5659,-46.5027,278.613,27
+895,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5862,-46.5886,540.219,32
+896,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5765,-46.5826,502.114,31
+897,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5808,-46.5851,430.89,29
+898,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5899,-46.5746,569.862,30
+899,Franco da Rocha,Deslizamento,-23.3183,-46.7295,157.953,52
+900,Mairiporã,Deslizamento,-23.1959,-46.3529,106.15,79
+901,Litoral Paulista,Deslizamento,-23.4922,-48.0614,206.418,53
+902,Franco da Rocha,Deslizamento,-23.3231,-46.7301,136.633,48
+903,Mairiporã,Deslizamento,-23.1968,-46.3526,97.744,83
+904,Franco da Rocha,Deslizamento,-23.3274,-46.7323,146.552,47
+905,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5756,-46.589,483.966,33
+906,Franco da Rocha,Deslizamento,-23.3292,-46.7324,142.832,48
+907,Mairiporã,Deslizamento,-23.2072,-46.346,110.991,83
+908,Franco da Rocha,Deslizamento,-23.3263,-46.7211,169.463,48
+909,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5892,-46.5897,511.092,28
+910,Mairiporã,Deslizamento,-23.2105,-46.35,83.491,80
+911,Mairiporã,Deslizamento,-23.2061,-46.3587,100.428,81
+912,Avenida Aricanduva,Inundação,-23.5574,-46.5083,248.064,24
+913,Avenida Aricanduva,Inundação,-23.5662,-46.5037,290.391,26
+914,Franco da Rocha,Deslizamento,-23.3264,-46.7219,169.64,50
+915,Avenida Aricanduva,Inundação,-23.5722,-46.507,249.029,28
+916,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5794,-46.5764,538.863,31
+917,Mairiporã,Deslizamento,-23.2032,-46.3482,99.384,81
+918,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5867,-46.5856,561.62,31
+919,Avenida Aricanduva,Inundação,-23.5613,-46.5115,258.636,23
+920,Litoral Paulista,Deslizamento,-23.4948,-48.0524,190.442,48
+921,Litoral Paulista,Deslizamento,-23.5041,-48.0462,190.88,50
+922,Avenida Aricanduva,Inundação,-23.568,-46.515,234.969,27
+923,Avenida Aricanduva,Inundação,-23.5622,-46.5038,279.813,25
+924,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5836,-46.5878,535.693,31
+925,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5894,-46.5745,429.503,27
+926,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5819,-46.5884,450.359,33
+927,Mairiporã,Deslizamento,-23.2018,-46.3454,91.655,81
+928,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5831,-46.5832,517.816,27
+929,Litoral Paulista,Deslizamento,-23.5011,-48.0573,177.928,51
+930,Avenida Aricanduva,Inundação,-23.5633,-46.5086,246.336,22
+931,Franco da Rocha,Deslizamento,-23.3221,-46.7319,157.096,51
+932,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5773,-46.5807,501.746,29
+933,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5854,-46.5888,569.573,29
+934,Avenida Aricanduva,Inundação,-23.5706,-46.5028,301.425,22
+935,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5808,-46.5834,466.388,27
+936,Litoral Paulista,Deslizamento,-23.5006,-48.0467,189.619,47
+937,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.586,-46.5799,456.85,27
+938,Avenida Aricanduva,Inundação,-23.5618,-46.5152,305.653,23
+939,Franco da Rocha,Deslizamento,-23.3151,-46.7297,148.679,47
+940,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5887,-46.5862,429.178,30
+941,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5832,-46.5815,451.197,29
+942,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5794,-46.5749,432.563,30
+943,Litoral Paulista,Deslizamento,-23.4988,-48.0528,200.217,48
+944,Litoral Paulista,Deslizamento,-23.4984,-48.0563,225.261,50
+945,Avenida Aricanduva,Inundação,-23.5571,-46.5054,288.725,26
+946,Avenida Aricanduva,Inundação,-23.5633,-46.5121,292.935,25
+947,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5807,-46.5862,538.45,29
+948,Litoral Paulista,Deslizamento,-23.4974,-48.0517,205.813,53
+949,Avenida Aricanduva,Inundação,-23.5678,-46.5064,270.515,28
+950,Avenida Aricanduva,Inundação,-23.5582,-46.5096,265.918,26
+951,Litoral Paulista,Deslizamento,-23.4937,-48.0515,187.482,52
+952,Mairiporã,Deslizamento,-23.211,-46.3479,93.626,79
+953,Litoral Paulista,Deslizamento,-23.4927,-48.0527,201.069,52
+954,Franco da Rocha,Deslizamento,-23.3239,-46.7243,172.274,49
+955,Franco da Rocha,Deslizamento,-23.3238,-46.7273,133.926,49
+956,Mairiporã,Deslizamento,-23.2025,-46.3453,112.38,82
+957,Mairiporã,Deslizamento,-23.198,-46.3541,92.133,77
+958,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5792,-46.5794,472.286,29
+959,Franco da Rocha,Deslizamento,-23.3199,-46.7329,153.779,50
+960,Avenida Aricanduva,Inundação,-23.5618,-46.5049,295.754,27
+961,Mairiporã,Deslizamento,-23.1993,-46.3494,88.638,80
+962,Franco da Rocha,Deslizamento,-23.3254,-46.7279,155.519,52
+963,Mairiporã,Deslizamento,-23.2079,-46.3573,111.438,79
+964,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5852,-46.5859,540.727,29
+965,Mairiporã,Deslizamento,-23.2016,-46.3506,90.02,78
+966,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5769,-46.5896,499.719,32
+967,Avenida Aricanduva,Inundação,-23.5681,-46.5072,297.755,24
+968,Avenida Aricanduva,Inundação,-23.5613,-46.5112,277.249,26
+969,Avenida Aricanduva,Inundação,-23.57,-46.5058,270.506,24
+970,Mairiporã,Deslizamento,-23.1964,-46.359,92.428,77
+971,Litoral Paulista,Deslizamento,-23.4957,-48.0506,190.071,52
+972,Avenida Aricanduva,Inundação,-23.5667,-46.5049,262.344,24
+973,Avenida Aricanduva,Inundação,-23.558,-46.513,235.712,25
+974,Mairiporã,Deslizamento,-23.1955,-46.3533,84.981,79
+975,Franco da Rocha,Deslizamento,-23.3219,-46.7324,157.367,47
+976,Mairiporã,Deslizamento,-23.2038,-46.3536,94.921,83
+977,Franco da Rocha,Deslizamento,-23.3234,-46.7288,157.439,52
+978,Avenida Aricanduva,Inundação,-23.5666,-46.5097,259.214,28
+979,Franco da Rocha,Deslizamento,-23.3147,-46.7326,149.223,53
+980,Litoral Paulista,Deslizamento,-23.5062,-48.0479,188.03,50
+981,Litoral Paulista,Deslizamento,-23.4972,-48.0612,207.405,52
+982,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5866,-46.5896,479.547,31
+983,Mairiporã,Deslizamento,-23.2091,-46.3552,91.832,80
+984,Mairiporã,Deslizamento,-23.2001,-46.3498,87.514,80
+985,Avenida Aricanduva,Inundação,-23.5589,-46.5081,295.521,28
+986,Avenida Aricanduva,Inundação,-23.5632,-46.5086,251.566,28
+987,Franco da Rocha,Deslizamento,-23.3167,-46.7337,149.197,50
+988,Avenida Aricanduva,Inundação,-23.5597,-46.5045,248.21,28
+989,Litoral Paulista,Deslizamento,-23.506,-48.0478,228.485,51
+990,Avenida Aricanduva,Inundação,-23.5724,-46.5105,267.299,28
+991,Litoral Paulista,Deslizamento,-23.5078,-48.0475,179.127,50
+992,Mairiporã,Deslizamento,-23.2055,-46.3453,83.539,81
+993,Franco da Rocha,Deslizamento,-23.3209,-46.7294,155.216,53
+994,Litoral Paulista,Deslizamento,-23.5061,-48.0598,181.538,48
+995,Avenida Aricanduva,Inundação,-23.561,-46.5025,292.763,28
+996,Avenida Professor Luiz Ignácio Anhaia Mello,Inundação,-23.5829,-46.5871,464.671,28
+997,Litoral Paulista,Deslizamento,-23.5069,-48.0583,226.349,48
+998,Franco da Rocha,Deslizamento,-23.3229,-46.7348,138.856,53
+999,Avenida Aricanduva,Inundação,-23.5664,-46.5168,264.271,23
+1000,Litoral Paulista,Deslizamento,-23.4949,-48.0486,217.482,51
