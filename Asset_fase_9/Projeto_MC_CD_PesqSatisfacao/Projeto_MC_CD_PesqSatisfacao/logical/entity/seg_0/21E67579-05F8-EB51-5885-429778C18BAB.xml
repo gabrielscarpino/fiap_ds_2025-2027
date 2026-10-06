@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21E67579-05F8-EB51-5885-429778C18BAB" name="DIM_MC_CENTRO_DISTRIBUICAO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 21:40:44 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_CENTRO_DISTRIBUICAO" id="08D82465-CD2B-222F-5230-5B311F9AFFD1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 21:46:25 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão CENTRO DE DISTRIBUIÇÃO. Seu conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão CENTRO DE DISTRIBUIÇÃO. Seu conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CENTRO_DISTRIBUICAO" id="C82396DC-D1EC-C90D-D771-11870C3C3A97">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 21:49:28 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do CENTRO_DISTRIBUICAO cadastrado e que participou da entrega na empresa Melhores Compras. Seu conteúdo será obrigatório, podendo possuir até 80 caracteres.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do CENTRO_DISTRIBUICAO cadastrado e que participou da entrega na empresa Melhores Compras. Seu conteúdo será obrigatório, podendo possuir até 80 caracteres.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FUNDACAO" id="73E6EA71-445A-7F96-6985-A92D04BECA4D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 21:52:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de fundação do CENTRO DE DISTRIBUIÇÃO que entregou o produto adquirido pelo cliente. O conteúdo será obrigatório, do tipo data.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de fundação do CENTRO DE DISTRIBUIÇÃO que entregou o produto adquirido pelo cliente. O conteúdo será obrigatório, do tipo data. ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_CENTRO_DISTRIBUICAO_ORIGEM" id="1DB0D620-B2BF-BF20-2BCF-8EF6EA51511B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-23 23:24:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o codigo do CENTRO DE DISTRIBUIÇÃO na origem de dados. . Seu conteúdo será numérico e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o codigo do CENTRO DE DISTRIBUIÇÃO na origem de dados. . Seu conteúdo será numérico e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<generatorID>4FB6EE59-BDEC-B677-D9ED-C5499B371DFF</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ORIGEM_DADOS" id="9BF166BB-7074-AE52-FEA4-10A51FD06674">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-23 23:24:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a nome da origem de dados de onde os dados foram coletados. Inicialmente os dados da loja serão oriundos do ecommerce da empresa Melhores Compras. Seu conteúdo será caractere e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a nome da origem de dados de onde os dados foram coletados. Inicialmente os dados da loja serão oriundos do ecommerce da empresa Melhores Compras. Seu conteúdo será caractere e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<generatorID>5DE71D75-E852-3AC2-2B47-DFE164999FEF</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="C7762FD0-3677-10D6-A895-C2F7D14C7945">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-23 23:24:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de inicio da carga feita dentro do modelo de dados dimensional. A ideia é que esse atributo junto com a data de térmio permita tratar o tema SCD (Slowly Changing Dimensional). Seu conteúdo será do tipo data e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de inicio da carga feita dentro do modelo de dados dimensional. A ideia é que esse atributo junto com a data de térmio permita tratar o tema SCD (Slowly Changing Dimensional). Seu conteúdo será do tipo data e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<generatorID>27E86ECE-C2AC-B235-B6CA-9B85F5E78D4B</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TERMINO" id="2E7D9C59-81BE-BE1E-8B93-409E9567494D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-23 23:24:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de término dentro do modelo de dados dimensional. A ideia é que esse atributo junto com a data de início permita tratar o tema SCD (Slowly Changing Dimensional). Quando essa coluna estiver preenchida significa que algum dado da loja foi impactado com SCD. Seu conteúdo será do tipo data e opcional e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de término dentro do modelo de dados dimensional. A ideia é que esse atributo junto com a data de início permita tratar o tema SCD (Slowly Changing Dimensional). Quando essa coluna estiver preenchida significa que algum dado da loja foi impactado com SCD. Seu conteúdo será do tipo data e opcional e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<generatorID>CC40A206-093F-CD9A-6C70-C6A066B17A44</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01D04E4A-3280-B215-FA84-77FFC9AFD99A" name="SK_DIM_LOJA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 21:47:03 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>08D82465-CD2B-222F-5230-5B311F9AFFD1</newElementsIDs>
+<usedAttributes>
+<attributeRef>08D82465-CD2B-222F-5230-5B311F9AFFD1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

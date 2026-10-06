@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AE25862-DED5-ABD0-27D3-FFAFDEE72055" name="DIM_DISTRITO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:31:43 UTC</createdTime>
+<generatorID>21E67579-05F8-EB51-5885-429778C18BAB</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<ordsAlias>dim_loja</ordsAlias>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_DISTRITO" id="91044175-2E1E-6513-AB33-F005888A6D63">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:31:43 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão LOJA. Seu conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão LOJA. Seu conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></commentInRDBMS>
+<generatorID>08D82465-CD2B-222F-5230-5B311F9AFFD1</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SK_CIDADE" id="99985358-D621-826F-4BAF-863472B9F384">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-02-06 20:24:07 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3B0164C-13F6-8761-5CD5-179CEB5682FC" referredColumn="0B6FD5DB-C41F-E580-FEAE-3AF734673159"/>
+</associations>
+</Column>
+<Column name="NM_DISTRITO" id="76FC032E-E9EC-663F-A89C-B1C16F5C1C1E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:31:43 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de fundação da loja que entregou o produto adquirido pelo cliente. O conteúdo será obrigatório, do tipo data. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de fundação da loja que entregou o produto adquirido pelo cliente. O conteúdo será obrigatório, do tipo data. ]]></commentInRDBMS>
+<generatorID>73E6EA71-445A-7F96-6985-A92D04BECA4D</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="216C98D5-DD52-FE10-F243-E92A1F294E37" name="PK_DIM_DISTRITO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:31:43 UTC</createdTime>
+<generatorID>01D04E4A-3280-B215-FA84-77FFC9AFD99A</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91044175-2E1E-6513-AB33-F005888A6D63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62D5E08C-3E72-0F68-CFFC-5C9C7C7873B3" name="FK_DIM_CID_DIST">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-02-06 20:24:07 UTC</createdTime>
+<generatorID>01D04E4A-3280-B215-FA84-77FFC9AFD99A</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99985358-D621-826F-4BAF-863472B9F384"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

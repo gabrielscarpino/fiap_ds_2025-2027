@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIM_LOCALIZACO_FTO_VDA_PRD" directorySegmentName="seg_0" id="FDFCE942-57AF-C6F9-ADB2-A8F28C3CA8D2">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:21:38 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<sourcePk>24C17C03-9835-DEDE-11F2-85306F8847A9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7E54DF3-1BB3-F08A-B561-A72F576883D6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F2D977D9-D8EF-317A-BF92-42483365210E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

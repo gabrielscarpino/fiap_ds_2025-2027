@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8003128D-6514-E7F3-F6F7-CB65CD5AE7F5" mainViewID="814DBCF8-EAD1-080B-026E-E2F69C074BB9">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 19:19:01 UTC</createdTime>
+<ownerDesignName>Proj_Dimensional_VendasProduto_ArcaNoe</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A423D565-5631-A677-63C1-7B17EFCACD71" name="DIM_MERCADO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:35:26 UTC</createdTime>
+<generatorID>21E67579-05F8-EB51-5885-429778C18BAB</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<ordsAlias>dim_loja</ordsAlias>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_MERCADO" id="86D6CFA1-D432-88A0-8EE5-F7ACA6F76FBA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:35:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão LOJA. Seu conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão LOJA. Seu conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></commentInRDBMS>
+<generatorID>08D82465-CD2B-222F-5230-5B311F9AFFD1</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SK_REGIAO" id="5423518E-B7A8-7EA4-F617-F2A70F4553C1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:36:46 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4980A9F3-DA67-BDEB-39C0-DF8AA688D1F2" referredColumn="DB9001AC-ABC6-FB74-EE6C-FA9344DF6B7C"/>
+</associations>
+</Column>
+<Column name="SK_ESTADO" id="5F10E357-C5E5-C51E-8CE8-B8BA623F13DA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:37:17 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF39530E-53B5-E014-B293-6911309B1C46" referredColumn="CEF08116-78F5-E35A-A182-3DBFDF9229E7"/>
+</associations>
+</Column>
+<Column name="NM_MERCADO" id="E4F1F514-D812-2ED7-F9AD-7ADCA5E161CC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:35:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de fundação da loja que entregou o produto adquirido pelo cliente. O conteúdo será obrigatório, do tipo data. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de fundação da loja que entregou o produto adquirido pelo cliente. O conteúdo será obrigatório, do tipo data. ]]></commentInRDBMS>
+<generatorID>73E6EA71-445A-7F96-6985-A92D04BECA4D</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB0D4C90-C737-DDA7-36F7-A2AFF97DE78B" name="PK_DIM_MERCADO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:35:26 UTC</createdTime>
+<generatorID>01D04E4A-3280-B215-FA84-77FFC9AFD99A</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D6CFA1-D432-88A0-8EE5-F7ACA6F76FBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97709CBF-8369-0F4D-B26D-2B91E33DE2A6" name="FK_DIM_REGIAO_MERCADO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:36:46 UTC</createdTime>
+<generatorID>01D04E4A-3280-B215-FA84-77FFC9AFD99A</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5423518E-B7A8-7EA4-F617-F2A70F4553C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CFD70BA-CE61-628C-A453-908B19138410" name="FK_DIM_ESTADO_MERRCADO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:37:17 UTC</createdTime>
+<generatorID>01D04E4A-3280-B215-FA84-77FFC9AFD99A</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F10E357-C5E5-C51E-8CE8-B8BA623F13DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

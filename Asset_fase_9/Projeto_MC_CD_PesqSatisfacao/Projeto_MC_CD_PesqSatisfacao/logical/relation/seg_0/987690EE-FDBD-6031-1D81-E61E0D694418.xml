@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIM_TEMPO_FTO_VENDA_PRODUTO" directorySegmentName="seg_0" id="987690EE-FDBD-6031-1D81-E61E0D694418">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 22:45:42 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<sourcePk>F63F5CA9-2409-12A0-BAE4-A34DE4C5A6F5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3880CBD3-C534-E8E2-FF58-0B8C1E27E815</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F2D977D9-D8EF-317A-BF92-42483365210E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,211 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2D977D9-D8EF-317A-BF92-42483365210E" name="FTO_MC_CD_NOTAS">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 22:22:07 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<typeID>1</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_TEMPO" id="6B9A46B5-8B7D-73AA-0235-FAA7711E9E58">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 22:45:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão TEMPO. O conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<generatorID>987690EE-FDBD-6031-1D81-E61E0D694418</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<referedAttribute>6BB97023-C489-3D37-ED9A-99D38FD11F6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_CENTRO_DISTRIBUICAO" id="348D58E6-35E8-00A9-8A04-B0720F7998FA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 22:56:08 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão LOJA. Seu conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></comment>
+<generatorID>30212B13-39AA-7F50-59F6-76FBF8B8B24C</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<referedAttribute>08D82465-CD2B-222F-5230-5B311F9AFFD1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_PRODUTO" id="5E264453-3603-D0A9-568D-CBCB95189197">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 23:00:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão PRODUTO. O conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<generatorID>C468D966-E7E1-D779-22D1-D8A11E5758C8</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<referedAttribute>86586E2B-2667-E87D-2FD4-7C897F665350</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_LOCALIZACAO" id="AEF6EA94-A0C8-50B5-EF47-5C906A12A0F2">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:21:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão PRODUTO. O conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<generatorID>FDFCE942-57AF-C6F9-ADB2-A8F28C3CA8D2</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<referedAttribute>9DFA2BC5-EFA0-A995-275E-B41DF250F95B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_CLIENTE" id="1933759E-2D70-BFD2-DB6D-F674E776242D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:36:10 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão CLIENTE. Seu conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></comment>
+<generatorID>6CC02AA7-F931-F105-BD41-CF49BFBC9AE6</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<referedAttribute>20E5BC4C-68EE-8993-B41A-96A2FBFA07D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_PEDIDO_ORIGEM" id="8C48E0C6-4C19-CDCC-69F5-47058AB27C2E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 22:34:55 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do pedido na origem de dados para um determinado pedido. Seu conteúdo será obrigatório, contendo apenas números inteiros e somente valores positivos são válidos.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do pedido na origem de dados para um determinado pedido. Seu conteúdo será obrigatório, contendo apenas números inteiros e somente valores positivos são válidos.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QT_TEMPO_ENTREGA_MINUTOS" id="2AD8E932-1311-60F8-967C-91DC68F243C1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 22:25:22 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o tempo médio de entrega do pedido (cadastro do pedido até a data com horário de entrega ao cliente). Será informado quantos minutos foram decorridos entre essas datas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o tempo médio de entrega do pedido (cadastro do pedido até a data com horário de entrega ao cliente). Será informado quantos minutos foram decorridos entre essas datas.
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_NOTA_EMBALAGEM" id="3551B20D-B851-7EF2-B262-8D79A5BB060D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 22:29:24 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a nota informada pelo cliente em relação a qualidade da embalagem no momento de entrega ao cliente. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a nota informada pelo cliente em relação a qualidade da embalagem no momento de entrega ao cliente. ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_NOTA_SATISFACAO" id="3B6B3A73-2E13-9ECB-7956-4A8F66179BFE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 22:32:16 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a nota informada pelo cliente em relação a satisfação com a entrega.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a nota informada pelo cliente em relação a satisfação com a entrega.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_NOTA_CORTESIA" id="7B57CE0F-2480-BAF9-48CB-E49BC92C5938">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-08-14 17:05:30 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a nota informada pelo cliente em relação a cortesia do entregador em relação a  entrega.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a nota informada pelo cliente em relação a cortesia do entregador em relação a  entrega.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_NOTA_PONTUALIDADE" id="E812E326-5230-A33B-6212-9646CDAF905B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-08-14 17:07:00 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a nota informada pelo cliente em relação a pontualidade em relação a  entrega.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a nota informada pelo cliente em relação a pontualidade em relação a  entrega.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="325C8754-47CC-A474-5F9A-E5242E45CF13" name="PK_FTO_VENDA_PRODUTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 22:45:42 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>987690EE-FDBD-6031-1D81-E61E0D694418,30212B13-39AA-7F50-59F6-76FBF8B8B24C,C468D966-E7E1-D779-22D1-D8A11E5758C8,FDFCE942-57AF-C6F9-ADB2-A8F28C3CA8D2,6CC02AA7-F931-F105-BD41-CF49BFBC9AE6</newElementsIDs>
+<usedAttributes>
+<attributeRef>6B9A46B5-8B7D-73AA-0235-FAA7711E9E58</attributeRef>
+<attributeRef>348D58E6-35E8-00A9-8A04-B0720F7998FA</attributeRef>
+<attributeRef>5E264453-3603-D0A9-568D-CBCB95189197</attributeRef>
+<attributeRef>AEF6EA94-A0C8-50B5-EF47-5C906A12A0F2</attributeRef>
+<attributeRef>1933759E-2D70-BFD2-DB6D-F674E776242D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

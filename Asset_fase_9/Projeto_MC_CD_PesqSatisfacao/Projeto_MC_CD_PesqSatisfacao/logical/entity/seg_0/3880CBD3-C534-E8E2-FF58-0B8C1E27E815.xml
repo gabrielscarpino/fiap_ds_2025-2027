@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3880CBD3-C534-E8E2-FF58-0B8C1E27E815" name="DIM_MC_CD_TEMPO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 19:48:06 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_TEMPO" id="6BB97023-C489-3D37-ED9A-99D38FD11F6E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 19:51:45 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão TEMPO. O conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão TEMPO. O conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ANO" id="87D69CF6-1515-1FF1-A4E1-186E663ED4A7">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 20:12:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o ano  em que ocorreu a venda do produto para o cliente. O conteúdo será obrigatório, numérico e os valores limites entre 1900 até 4444, correspondentes aos anos válidos no calendário gregoriano. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o ano  em que ocorreu a venda do produto para o cliente. O conteúdo será obrigatório, numérico e os valores limites entre 1900 até 4444, correspondentes aos anos válidos no calendário gregoriano. ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TRIMESTRE" id="A2074386-0CAC-57F3-9242-5A5687D9948B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:20:01 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do trimestre em que ocorreu a venda do produto para o cliente. O conteúdo será obrigatório, numérico e os valores limites entre 1 e 4.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do trimestre em que ocorreu a venda do produto para o cliente. O conteúdo será obrigatório, numérico e os valores limites entre 1 e 4.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_SEMESTRE" id="68A35501-6DFB-1E68-0590-8D999B583113">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:20:57 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do semestre  em que ocorreu a venda do produto para o cliente. O conteúdo será obrigatório, numérico e os valores limites entre 1 e 2.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do semestre  em que ocorreu a venda do produto para o cliente. O conteúdo será obrigatório, numérico e os valores limites entre 1 e 2.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F63F5CA9-2409-12A0-BAE4-A34DE4C5A6F5" name="SK_DIM_TEMPO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 19:55:50 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>6BB97023-C489-3D37-ED9A-99D38FD11F6E</newElementsIDs>
+<usedAttributes>
+<attributeRef>6BB97023-C489-3D37-ED9A-99D38FD11F6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

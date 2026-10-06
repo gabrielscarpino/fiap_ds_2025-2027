@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7E54DF3-1BB3-F08A-B561-A72F576883D6" name="DIM_MC_CD_LOCALIZACAO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:16:22 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_LOCALIZACAO" id="9DFA2BC5-EFA0-A995-275E-B41DF250F95B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:16:22 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão PRODUTO. O conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão LOCALIZACAO. O conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ESTADO" id="818ADE90-62E1-3683-EE03-5D53D2D8891D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:16:22 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o ESTADO. Seu conteúdo será obrigatório, podendo possuir até 25  caracteres.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o ESTADO. Seu conteúdo será obrigatório, podendo possuir até 25  caracteres.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_ESTADO" id="3EE22FEE-EB75-9572-BCF8-4536BAF5C05B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:16:22 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a sigla do  ESTADO. Seu conteúdo será obrigatório, podendo possuir até 2  caracteres.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a sigla do  ESTADO. Seu conteúdo será obrigatório, podendo possuir até 2  caracteres.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="FF9AC473-9D0C-EF22-3589-AEB72103EBD6">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:16:22 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome da Cidade. Seu conteúdo será obrigatório, podendo possuir até 90  caracteres.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome da Cidade. Seu conteúdo será obrigatório, podendo possuir até 90  caracteres.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_IBGE_CIDADE" id="09E95468-2574-5F99-D59D-526D991D6435">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-08-14 16:33:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o codigodo IBGE relacionado a Cidade. Seu conteúdo será obrigatório, podendo possuir até 8 números.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o codigodo IBGE relacionado a Cidade. Seu conteúdo será obrigatório, podendo possuir até 8 números.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="044CDF72-D4F8-A9C7-6D13-241B7793CB5A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:18:27 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do Bairro. Seu conteúdo será obrigatório, podendo possuir até 120  caracteres.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do Bairro. Seu conteúdo será obrigatório, podendo possuir até 120  caracteres.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ZONA_BAIRRO" id="F9933390-8CCE-7E71-3435-95CFBFFF8CFC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-08-14 16:34:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a zona do Bairro. Seu conteúdo será obrigatório, podendo possuir até 20 caracteres. Os possíveis valores são: CENTRO; ZONA NORTE; ZONA SUL; ZONA LESTE e ZONA OESTE.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a zona do Bairro. Seu conteúdo será obrigatório, podendo possuir até 20 caracteres. Os possíveis valores são: CENTRO; ZONA NORTE; ZONA SUL; ZONA LESTE e ZONA OESTE.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_LOGRADOURO" id="FA210E09-83B5-BCCA-5FA1-1D02937E66BA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:18:51 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do Logradouro. Seu conteúdo será obrigatório, podendo possuir até 150  caracteres.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do Logradouro. Seu conteúdo será obrigatório, podendo possuir até 150  caracteres.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CEP" id="82537656-11C9-AEF9-D949-5613B8B73923">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-08-14 16:32:54 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do CEP do Logradouro. Seu conteúdo será obrigatório, podendo possuir até 9 caracteres.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do CEP do Logradouro. Seu conteúdo será obrigatório, podendo possuir até 9 caracteres.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24C17C03-9835-DEDE-11F2-85306F8847A9" name="SK_DIM_LOGRADOURO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:16:22 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>9DFA2BC5-EFA0-A995-275E-B41DF250F95B</newElementsIDs>
+<usedAttributes>
+<attributeRef>9DFA2BC5-EFA0-A995-275E-B41DF250F95B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

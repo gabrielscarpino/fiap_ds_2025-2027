@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AAC290E3-7F68-59CB-B620-2617EAD19091" containerWithKeyObject="EEC38750-E83A-72FA-01DA-399A53121EFD" localFKIndex="79C7D6B9-3942-23E0-6DAD-143D25B63436" name="FK_DIM_CID_VDA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-02-06 20:24:40 UTC</createdTime>
+<generatorID>01D04E4A-3280-B215-FA84-77FFC9AFD99A</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<referredTableLongName>DIM_DISTRITO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2AE25862-DED5-ABD0-27D3-FFAFDEE72055</referredTableID>
+<keyObject>216C98D5-DD52-FE10-F243-E92A1F294E37</keyObject>
+<referredKeyID>216C98D5-DD52-FE10-F243-E92A1F294E37</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_DISTRITO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

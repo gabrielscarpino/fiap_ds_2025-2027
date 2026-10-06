@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="322E1B11-FB72-6FE8-5BBD-C4900D3DA466" name="DIM_MC_CD_PRODUTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 21:06:34 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_PRODUTO" id="86586E2B-2667-E87D-2FD4-7C897F665350">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 21:09:00 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão PRODUTO. O conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão PRODUTO. O conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PRODUTO" id="BA499632-C41C-EB8F-F123-FE2CE0E7B997">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 21:16:01 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do produto cadastrado e que participou de uma venda na Pet Shop Arca de Noé. Seu conteúdo será obrigatório, podendo possuir até 90 caracteres.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do produto cadastrado e que participou de uma venda na Pet Shop Arca de Noé. Seu conteúdo será obrigatório, podendo possuir até 90 caracteres.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CATEGORIA" id="24BCEF67-C2F9-FA2C-8008-7C497B5B10DE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 21:21:17 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a categoria do produto cadastrado que participou de uma venda na Pet Shop Arca de Noé. Seu conteúdo será obrigatório, podendo possuir até 95 caracteres.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a categoria do produto cadastrado que participou de uma venda na Pet Shop Arca de Noé. Seu conteúdo será obrigatório, podendo possuir até 95 caracteres.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>95</dataTypeSize>
+<ownDataTypeParameters>95,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_TIPO_EMBALAGEM" id="F79C3011-A791-1E72-953A-FF16BBE4E22C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 21:25:27 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o tipo de embalagem do produto cadastrado que participou de uma venda na Pet Shop Arca de Noé. Seu conteúdo será obrigatório, podendo possuir até 60 caracteres.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o tipo de embalagem do produto cadastrado que participou de uma venda na Pet Shop Arca de Noé. Seu conteúdo será obrigatório, podendo possuir até 60 caracteres.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PRODUTO_ORIGEM" id="E3B5BB59-1391-9BE9-2665-5BC6D0B4D4D5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-23 23:24:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a código do produto na origem de dados. No caso do PDV da pet shop arca de noé temos a tabela PET_PRODUTO que representa o produto da empresa. Seu conteúdo será numérico e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a código do produto na origem de dados. No caso do PDV da pet shop arca de noé temos a tabela PET_PRODUTO que representa o produto da empresa. Seu conteúdo será numérico e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></commentInRDBMS>
+<generatorID>CD061F00-ABED-4328-8E4D-F2DD5F47CCC2</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ORIGEM_DADOS" id="F6632AAF-9689-6D8F-347A-EF056CAE7B89">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-23 23:24:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a nome da origem de dados de onde os dados foram coletados do produto. Inicialmente os dados do produto serão oriundos do sitema de PDV (Ponto de Venda) . No caso do PDV da pet shop arca de noé temos a tabela PET_PRODUTO, coluna cod_prod quer representa o produto da empresa. Seu conteúdo será caractere e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a nome da origem de dados de onde os dados foram coletados do produto. Inicialmente os dados do produto serão oriundos do sitema de PDV (Ponto de Venda) . No caso do PDV da pet shop arca de noé temos a tabela PET_PRODUTO, coluna cod_prod quer representa o produto da empresa. Seu conteúdo será caractere e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<generatorID>A6103C24-FEED-3C31-88A0-4A83B7C7A830</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="74ABCAF5-D228-FB2C-AD8B-0C2810FC24F5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-23 23:24:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de inicio da carga feita do produto dentro do modelo de dados dimensional. A ideia é que esse atributo junto com a data de térmio permita tratar o tema SCD (Slowly Changing Dimensional). Seu conteúdo será do tipo data e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de inicio da carga feita do produto dentro do modelo de dados dimensional. A ideia é que esse atributo junto com a data de térmio permita tratar o tema SCD (Slowly Changing Dimensional). Seu conteúdo será do tipo data e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<generatorID>1C8D14EC-0E83-7FD3-BAF5-CD0BB02BEE0C</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TERMINO" id="D9655978-8348-0A24-411B-B16AE1065DBD">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-23 23:24:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de término do produto  dentro do modelo de dados dimensional. A ideia é que esse atributo junto com a data de início permita tratar o tema SCD (Slowly Changing Dimensional). Quando essa coluna estiver preenchida significa que o produto foi impactado com SCD. Seu conteúdo será do tipo data e opcional e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de término do produto  dentro do modelo de dados dimensional. A ideia é que esse atributo junto com a data de início permita tratar o tema SCD (Slowly Changing Dimensional). Quando essa coluna estiver preenchida significa que o produto foi impactado com SCD. Seu conteúdo será do tipo data e opcional e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<generatorID>E48989E4-FCAB-44DC-8BC1-56B28EEE8B53</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3C0AFF0-ED5F-594C-7F0D-D26AF11CC92A" name="SK_DIM_PRODUTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-18 21:09:12 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>86586E2B-2667-E87D-2FD4-7C897F665350</newElementsIDs>
+<usedAttributes>
+<attributeRef>86586E2B-2667-E87D-2FD4-7C897F665350</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

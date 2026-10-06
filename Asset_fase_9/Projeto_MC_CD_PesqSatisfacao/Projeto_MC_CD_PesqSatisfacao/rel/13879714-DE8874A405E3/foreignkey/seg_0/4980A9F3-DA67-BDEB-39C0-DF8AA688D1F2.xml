@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4980A9F3-DA67-BDEB-39C0-DF8AA688D1F2" containerWithKeyObject="A423D565-5631-A677-63C1-7B17EFCACD71" localFKIndex="97709CBF-8369-0F4D-B26D-2B91E33DE2A6" name="FK_DIM_REGIAO_MERCADO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:36:46 UTC</createdTime>
+<generatorID>01D04E4A-3280-B215-FA84-77FFC9AFD99A</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<referredTableLongName>DIM_REGIAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B0F99CF-6954-0C06-4E7B-9A5494EAAA07</referredTableID>
+<keyObject>6223CDCD-8F51-CE2A-D862-22369A100A75</keyObject>
+<referredKeyID>6223CDCD-8F51-CE2A-D862-22369A100A75</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_REGIAO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

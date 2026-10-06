@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="864E2CF5-06CB-DA70-A3E0-09D2F0A50C42" name="DIM_MC_CD_CLIENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:30:33 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_CLIENTE" id="20E5BC4C-68EE-8993-B41A-96A2FBFA07D5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:30:33 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão CLIENTE. Seu conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave surrogate key da dimensão CLIENTE. Seu conteúdo será numérico e sequencial e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLIENTE" id="F6E87C35-FFC6-98D2-B9B3-394CF39E5FF1">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-11-23 13:54:09 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do cliente a partir da sua origem de dados. Seu conteúdo será numérico e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do cliente a partir da sua origem de dados. Seu conteúdo será numérico e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASCIMENTO" id="375A0555-0386-9183-19D2-DBD86ABDE6F9">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-11-23 14:00:01 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de nascimento do cliente a partir da sua origem de dados.  Seu conteúdo será numérico e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de nascimento do cliente a partir da sua origem de dados.  Seu conteúdo será numérico e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FAIXA_ETARIA" id="582D9361-78D2-DCEE-50E9-F72A1F5140AE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:33:37 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a faixa etária do cliente. O conteúdo será obrigatório, do tipo caractere.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a faixa etária do cliente. O conteúdo será obrigatório, do tipo caractere.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ESTRELAS" id="F210B927-73B8-E2CB-451E-56AFAE088B70">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:30:33 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número de estrelas que o cliente possui dentro plataforma de ecommerce da Melhores Compras.. Esse numero pode ser de 1 a 5 onde 1 é um cliente iniciante e 5 cliente VIP. Seu conteúdo será obrigatório, podendo possuir até 1 número..]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número de estrelas que o cliente possui dentro plataforma de ecommerce da Melhores Compras.. Esse numero pode ser de 1 a 5 onde 1 é um cliente iniciante e 5 cliente VIP. Seu conteúdo será obrigatório, podendo possuir até 1 número.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_SEXO" id="F66A4A49-3109-797F-3BC1-6A4A7714816B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:30:33 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a preferência sexual do cliente. O conteúdo será obrigatório, do tipo caractere.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a preferência sexual do cliente. O conteúdo será obrigatório, do tipo caractere.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ESTADO_CIVIL" id="1FCF93E4-5D89-BD1E-CF85-6D71A733AE27">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:35:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o estado civil  do cliente. O conteúdo será obrigatório, do tipo caractere.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o estado civil  do cliente. O conteúdo será obrigatório, do tipo caractere.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_CLIENTE_ORIGEM" id="45D6896D-FA65-9B65-B0AF-61121A16F38C">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-11-23 13:31:21 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a código do cliente na origem de dados.  Seu conteúdo será numérico e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a código do cliente na origem de dados.  Seu conteúdo será numérico e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ORIGEM_DADOS" id="B1EED785-8E4E-BF96-4BF1-1E56514C83D1">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-11-23 13:32:08 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a nome da origem de dados de onde os dados foram coletado do cliente. Seu conteúdo será caractere e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a nome da origem de dados de onde os dados foram coletado do cliente. Seu conteúdo será caractere e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="66533C0B-D2B1-46E8-B405-A459FA7B0EAA">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-11-23 13:32:27 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de inicio da carga feita do cliente dentro do modelo de dados dimensional. A ideia é que esse atributo junto com a data de térmio permita tratar o tema SCD (Slowly Changing Dimensional). Seu conteúdo será do tipo data e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de inicio da carga feita do cliente dentro do modelo de dados dimensional. A ideia é que esse atributo junto com a data de térmio permita tratar o tema SCD (Slowly Changing Dimensional). Seu conteúdo será do tipo data e obrigatório e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TERMINO" id="1435D188-0177-1E67-CD44-43580006449B">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-11-23 13:32:37 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de término do cliente dentro do modelo de dados dimensional. A ideia é que esse atributo junto com a data de início permita tratar o tema SCD (Slowly Changing Dimensional). Quando essa coluna estiver preenchida significa que o cliente foi impactado com SCD. Seu conteúdo será do tipo data e opcional e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de término do cliente dentro do modelo de dados dimensional. A ideia é que esse atributo junto com a data de início permita tratar o tema SCD (Slowly Changing Dimensional). Quando essa coluna estiver preenchida significa que o cliente foi impactado com SCD. Seu conteúdo será do tipo data e opcional e deve ser preenchido na fase de ETL seguindo regras pré-estabelecidas.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0114D88E-430D-EE33-DE95-FE94139382DE" name="SK_DIM_CLIENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:30:33 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<engineerTo>
+<item key="13879714-DCF2-FA5E-FFBC-DE8874A405E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>20E5BC4C-68EE-8993-B41A-96A2FBFA07D5</newElementsIDs>
+<usedAttributes>
+<attributeRef>20E5BC4C-68EE-8993-B41A-96A2FBFA07D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

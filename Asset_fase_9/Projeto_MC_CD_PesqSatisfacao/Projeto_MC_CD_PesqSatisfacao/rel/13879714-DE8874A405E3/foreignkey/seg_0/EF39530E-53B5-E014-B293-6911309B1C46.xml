@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF39530E-53B5-E014-B293-6911309B1C46" containerWithKeyObject="A423D565-5631-A677-63C1-7B17EFCACD71" localFKIndex="8CFD70BA-CE61-628C-A453-908B19138410" name="FK_DIM_ESTADO_MERRCADO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:37:17 UTC</createdTime>
+<generatorID>01D04E4A-3280-B215-FA84-77FFC9AFD99A</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<referredTableLongName>DIM_ESTADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0EA4858E-E2A8-9676-9847-99A5B5D37D85</referredTableID>
+<keyObject>F924DDC1-803A-5639-924E-DFBA58A42B3D</keyObject>
+<referredKeyID>F924DDC1-803A-5639-924E-DFBA58A42B3D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_ESTADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

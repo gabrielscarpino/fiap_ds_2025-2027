@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEC38750-E83A-72FA-01DA-399A53121EFD" name="FTO_VENDA_PROD_REGIAO_DISTRITO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:37:23 UTC</createdTime>
+<generatorID>F2D977D9-D8EF-317A-BF92-42483365210E</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<ordsAlias>fto_venda_produto</ordsAlias>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_PRODUTO" id="AF712BF1-363D-5F86-F9EE-BEC8E5B2CF57">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 14:57:59 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CE5A956-F2B8-27BB-F00B-10E6380213DA" referredColumn="331875F6-3FA8-F2DE-855A-D211AC3D4DA4"/>
+</associations>
+</Column>
+<Column name="SK_TEMPO" id="EA314382-A4E5-CFB6-C443-F8BA5C06254C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 14:59:13 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7724AB4-5184-A814-8224-163E7A40177C" referredColumn="05A191DD-14C6-F3D1-EE49-A5EEAFDDB59E"/>
+</associations>
+</Column>
+<Column name="SK_MERCADO" id="CCB86F28-0619-3EDA-C430-7239F84BCDE6">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 17:39:05 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SK_DISTRITO" id="EE5DE736-3FE7-4EC6-ACB5-30728FF2488E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-02-06 20:24:40 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAC290E3-7F68-59CB-B620-2617EAD19091" referredColumn="91044175-2E1E-6513-AB33-F005888A6D63"/>
+</associations>
+</Column>
+<Column name="VL_TOT_VENDA_REAL" id="66E7BA4E-C6B4-8134-3A46-BE7B5E1E6A86">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:37:23 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor total de venda de um determinado produto em um pedido. Seu conteúdo será obrigatório, contendo números inteiros e 2 casas decimais e somente valores positivos são válidos.
+]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor total de venda de um determinado produto em um pedido. Seu conteúdo será obrigatório, contendo números inteiros e 2 casas decimais e somente valores positivos são válidos.
+]]></commentInRDBMS>
+<generatorID>2AD8E932-1311-60F8-967C-91DC68F243C1</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_TOT_VENDA_DOLAR" id="9B06A910-64EE-3E28-275E-0B35EA612A8C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 12:44:29 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_UNITARIO_REAL" id="08B11C55-6BEB-67BD-A2CE-3551522129C6">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 12:44:29 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_UNITARIO_DOLAR" id="7075D907-95F3-BDF5-E8CB-92C61591BE69">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 12:44:29 UTC</createdTime>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QT_VENDA" id="1F62F556-2AEC-B58D-9C58-F12C74EB9F73">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:37:23 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a quantidade de venda de um determinado produto em um determinado pedido. Seu conteúdo será obrigatório, contendo 6 números inteiros e 4 casas decimais e somente valores positivos são válidos.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a quantidade de venda de um determinado produto em um determinado pedido. Seu conteúdo será obrigatório, contendo 6 números inteiros e 4 casas decimais e somente valores positivos são válidos.]]></commentInRDBMS>
+<generatorID>3551B20D-B851-7EF2-B262-8D79A5BB060D</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66EE6C48-5D0B-C11D-CC07-03627672AB0D" name="PK_FTO_VENDA_PROD_REGIAO_DISTRITO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-11-21 13:37:23 UTC</createdTime>
+<generatorID>325C8754-47CC-A474-5F9A-E5242E45CF13</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA314382-A4E5-CFB6-C443-F8BA5C06254C"/>
+<colUsage columnID="AF712BF1-363D-5F86-F9EE-BEC8E5B2CF57"/>
+<colUsage columnID="CCB86F28-0619-3EDA-C430-7239F84BCDE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E703B7BA-98E0-5731-E8C6-4A51A9742A09" name="FK_DIM_PROD_FTO_VDA_PROD_REGDISTRITO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 14:57:59 UTC</createdTime>
+<generatorID>C3C0AFF0-ED5F-594C-7F0D-D26AF11CC92A</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF712BF1-363D-5F86-F9EE-BEC8E5B2CF57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBA2EC20-0893-18F0-9594-5F567BB8C66C" name="FK_DIM_TEMPO_FTO_VDA_PROD_REGDISTRITO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-12-22 14:59:13 UTC</createdTime>
+<generatorID>F63F5CA9-2409-12A0-BAE4-A34DE4C5A6F5</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA314382-A4E5-CFB6-C443-F8BA5C06254C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79C7D6B9-3942-23E0-6DAD-143D25B63436" name="FK_DIM_CID_VDA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-02-06 20:24:40 UTC</createdTime>
+<generatorID>01D04E4A-3280-B215-FA84-77FFC9AFD99A</generatorID>
+<ownerDesignName>Projeto_MC_CD_PesqSatisfacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE5DE736-3FE7-4EC6-ACB5-30728FF2488E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
