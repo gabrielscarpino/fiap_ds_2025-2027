@@ -1,0 +1,7 @@
+Nota: 7.9/8
+
+O grupo demonstrou um bom entendimento na modelagem dimensional, especialmente ao implementar a estrutura snowflake para a localização, permitindo um reaproveitamento eficiente das tabelas. Essa abordagem contribui significativamente para a análise de dados, facilitando a integração entre clientes e centros de distribuição.
+
+No entanto, a hierarquia de categoria e produto poderia ser mais bem definida, pois a entrega não apresenta uma organização clara que permita a evolução da estrutura. Isso é crucial para garantir que a análise de dados seja flexível e adaptável a futuras necessidades.
+
+Por outro lado, a documentação das etapas de criação do SGBD na nuvem foi bem elaborada, com capturas de tela que facilitam a compreensão do processo. Isso demonstra um bom cuidado com a apresentação e a clareza das informações, o que é essencial em projetos dessa natureza.
