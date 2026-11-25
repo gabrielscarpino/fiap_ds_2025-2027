@@ -1,0 +1,3 @@
+9.6/10
+
+A equipe apresentou uma proposta bem estruturada, com uma contextualização clara do problema de desligamento voluntário e a identificação dos usuários que se beneficiarão da solução. A abordagem de utilizar um modelo preditivo para calcular o risco de turnover e as funcionalidades planejadas, como o score de risco e as recomendações preventivas, demonstram um entendimento sólido das necessidades da Ri Happy. A consideração ética e a abordagem em relação à LGPD foram muito bem abordadas, o que é fundamental em projetos que lidam com dados pessoais. A proposta demonstra um compromisso com a privacidade e a responsabilidade no uso das informações, o que é um ponto positivo significativo para a credibilidade da solução.
